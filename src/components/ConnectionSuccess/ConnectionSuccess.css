@@ -1,0 +1,76 @@
+.connectionSuccessPage__content__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.7rem;
+}
+
+.connectionSuccessPage__content__title svg {
+  width: 40px;
+}
+
+.connectionSuccessPage__content__userInfo span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.connectionSuccessPage__content__form {
+  margin-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+.connectionSuccessPage__content__form div {
+  width: 432px;
+  height: 64px;
+  border-width: 2px;
+  border-style: solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.connectionSuccessPage__svgs {
+  margin-top: -100px;
+  -webkit-transition: -webkit-transform 1s ease-in-out 0.5s;
+  transition: -webkit-transform 1s ease-in-out 0.5s;
+  transition: transform 1s ease-in-out 0.5s;
+  transition: transform 1s ease-in-out 0.5s, -webkit-transform 1s ease-in-out 0.5s;
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+  -webkit-animation-name: upDown;
+          animation-name: upDown;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  pointer-events: none;
+}
+
+.connectionSuccessPage__help {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.4rem;
+}
+
+.connectionSuccessPage__help svg {
+  fill: white;
+  width: 20px;
+}
+/*# sourceMappingURL=ConnectionSuccess.css.map */

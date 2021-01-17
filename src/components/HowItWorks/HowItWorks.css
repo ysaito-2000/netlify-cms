@@ -1,0 +1,16 @@
+.howItWorks {
+  padding-top: 3rem;
+  margin-bottom: 200px;
+}
+
+.howItWorks__description__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.7rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+}
+/*# sourceMappingURL=HowItWorks.css.map */

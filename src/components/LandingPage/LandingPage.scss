@@ -1,0 +1,87 @@
+.home__page {
+  display: flex;
+  // justify-content: space-between;
+  gap: 2rem;
+}
+
+.home__page__svg {
+  align-self: center;
+  position: relative;
+  transform: translateY(-40px);
+  .main__svg {
+    transition: transform 1s ease-in-out 0s;
+    animation-duration: 2.2s;
+    animation-name: upDown;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .usbnex__icon {
+    position: absolute;
+    top: 110px;
+    left: 430px;
+    z-index: 1;
+    transition: transform 1s ease-in-out 0.5s;
+    animation-duration: 1.8s;
+    animation-name: upDown;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width: 15%;
+  }
+}
+
+.home__page__content {
+  width: 30%;
+  .home__page__content__tagline {
+    display: flex;
+    align-items: center;
+  }
+  .home__page__content__button__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.3rem;
+    margin-top: 4rem;
+    width: 100%;
+    cursor: pointer;
+    svg {
+      transform: translateX(-15px);
+      transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+      cursor: pointer;
+    }
+    &:hover {
+      svg {
+        transform: translateX(0px);
+      }
+    }
+  }
+  .home__page__content__social {
+    padding: 60px 0;
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 1.5rem;
+  }
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+@media (max-width: 786px) {
+  .home__page {
+    flex-direction: column-reverse;
+  }
+
+  .home__page__content {
+    width: 100%;
+    h2 {
+      font-size: 30px !important;
+    }
+  }
+}

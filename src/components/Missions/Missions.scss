@@ -1,0 +1,68 @@
+.missions {
+  padding-top: 3rem;
+  margin-bottom: 200px;
+  .missions__paragraph {
+    text-align: center;
+  }
+  .missions__image__container {
+    position: relative;
+    .missions__image {
+      margin-top: 4rem;
+      transform: translateX(-50px);
+      margin-bottom: 8rem;
+      transition: transform 1s ease-in-out 0.5s;
+      animation-duration: 1.8s;
+      animation-name: upDown;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    .missions__dots {
+      position: absolute;
+      top: 20%;
+      left: 30%;
+      transition: transform 1s ease-in-out 0.5s;
+      animation-duration: 1.8s;
+      animation-name: upDown;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+  }
+  .missions__description {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    .missions__description__image {
+      width: 50%;
+      transition: transform 1s ease-in-out 0.5s;
+      animation-duration: 1.8s;
+      animation-name: upDown;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    .missions__description__card {
+      width: 40%;
+      h2 {
+        margin-bottom: 2rem;
+      }
+      p {
+        line-height: 30px;
+        margin-bottom: 2rem;
+      }
+      .missions__btn {
+        height: 61px;
+        width: 253px;
+        margin-bottom: 2rem;
+      }
+      .missions__description__social {
+        display: flex;
+        gap: 1.7rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .missions__description {
+    flex-direction: column;
+  }
+}

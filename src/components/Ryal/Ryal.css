@@ -1,0 +1,56 @@
+.ryal {
+  margin-top: 3rem;
+  margin-bottom: 200px;
+}
+
+.ryal .ryal__headline {
+  line-height: 30px;
+  width: 70%;
+  margin: auto;
+}
+
+.ryal__description {
+  margin-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2.3rem;
+}
+
+.ryal__description h2 {
+  margin-bottom: 2rem;
+}
+
+.ryal__description p {
+  line-height: 30px;
+}
+
+.ryal__description img {
+  -webkit-transition: -webkit-transform 1s ease-in-out 0.5s;
+  transition: -webkit-transform 1s ease-in-out 0.5s;
+  transition: transform 1s ease-in-out 0.5s;
+  transition: transform 1s ease-in-out 0.5s, -webkit-transform 1s ease-in-out 0.5s;
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+  -webkit-animation-name: upDown;
+          animation-name: upDown;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.ryal__description .ryal__btn {
+  margin-top: 10rem;
+  height: 61px;
+  width: 253px;
+  margin-bottom: 2rem;
+}
+
+.ryal__description .ryal__description__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.7rem;
+}
+/*# sourceMappingURL=Ryal.css.map */
