@@ -9,9 +9,12 @@ import { Auth } from "aws-amplify"
 
 const Header = ({ path }) => {
   const [user, setUser] = useState(null)
-  useEffect(async () => {
-    const user = await Auth.currentAuthenticatedUser()
-    setUser(user)
+  useEffect(() => {
+    async function fetchAuth() {
+      const user = await Auth.currentAuthenticatedUser()
+      setUser(user)
+    }
+    fetchAuth();
   }, [])
   const logOut = async () => {
     await Auth.signOut()
