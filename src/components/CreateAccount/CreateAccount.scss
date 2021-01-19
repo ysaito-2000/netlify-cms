@@ -1,0 +1,36 @@
+.create__account {
+  display: flex;
+  justify-content: space-between;
+}
+
+.create__account__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 55%;
+  input[type=submit] {
+    width: 360px;
+  }
+}
+
+.create__account__svg {
+  position: relative;
+  transition: transform 1s ease-in-out 0s;
+  animation-duration: 2.2s;
+  animation-name: upDown;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  .usbnex__icon {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -80px;
+    mix-blend-mode: lighten;
+    box-shadow: -271px -541px 16px #000000;
+    transition: transform 1s ease-in-out 0.5s;
+    animation-duration: 1.8s;
+    animation-name: upDown;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+}

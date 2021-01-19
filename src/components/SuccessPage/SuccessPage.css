@@ -1,0 +1,77 @@
+.success__page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 2rem;
+}
+
+.success__page__svg {
+  position: relative;
+}
+
+.success__page__svg .success__svg {
+  -webkit-transition: -webkit-transform 1s ease-in-out 0s;
+  transition: -webkit-transform 1s ease-in-out 0s;
+  transition: transform 1s ease-in-out 0s;
+  transition: transform 1s ease-in-out 0s, -webkit-transform 1s ease-in-out 0s;
+  -webkit-animation-duration: 2.2s;
+          animation-duration: 2.2s;
+  -webkit-animation-name: upDown;
+          animation-name: upDown;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.success__page__svg .usbnex__icon {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: -80px;
+  mix-blend-mode: lighten;
+  -webkit-box-shadow: -271px -541px 16px #000000;
+          box-shadow: -271px -541px 16px #000000;
+  -webkit-transition: -webkit-transform 1s ease-in-out 0.5s;
+  transition: -webkit-transform 1s ease-in-out 0.5s;
+  transition: transform 1s ease-in-out 0.5s;
+  transition: transform 1s ease-in-out 0.5s, -webkit-transform 1s ease-in-out 0.5s;
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+  -webkit-animation-name: upDown;
+          animation-name: upDown;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.success__page__content .success__page__content__check__email {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.success__page__follow__discord {
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5rem;
+}
+
+.success__page__follow__discord p {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+/*# sourceMappingURL=SuccessPage.css.map */

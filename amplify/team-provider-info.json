@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-usbnexconfigurator-dev-190109-authRole",
+      "UnauthRoleArn": "arn:aws:iam::787945403118:role/amplify-usbnexconfigurator-dev-190109-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::787945403118:role/amplify-usbnexconfigurator-dev-190109-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-usbnexconfigurator-dev-190109-deployment",
+      "UnauthRoleName": "amplify-usbnexconfigurator-dev-190109-unauthRole",
+      "StackName": "amplify-usbnexconfigurator-dev-190109",
+      "StackId": "arn:aws:cloudformation:us-east-1:787945403118:stack/amplify-usbnexconfigurator-dev-190109/a31d5530-4726-11eb-b518-0efb334d2cc7",
+      "AmplifyAppId": "d1f24llh3t4cf5"
+    },
+    "categories": {
+      "auth": {
+        "usbnexconfiguratore5e2a963": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "auth": {
+      "usbnexconfiguratore5e2a963": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

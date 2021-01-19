@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACV,WAAW,EAAE,IAAI;EACjB,aAAa,EAAE,KAAK;CACrB;;AACD,AAAA,gCAAgC,CAAC;EAC/B,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,MAAM;EACX,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "HowItWorks.scss"
+    ],
+    "names": [],
+    "file": "HowItWorks.css"
+}

@@ -1,0 +1,111 @@
+.missions {
+  padding-top: 3rem;
+  margin-bottom: 200px;
+}
+
+.missions .missions__paragraph {
+  text-align: center;
+}
+
+.missions .missions__image__container {
+  position: relative;
+}
+
+.missions .missions__image__container .missions__image {
+  margin-top: 4rem;
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  margin-bottom: 8rem;
+  -webkit-transition: -webkit-transform 1s ease-in-out 0.5s;
+  transition: -webkit-transform 1s ease-in-out 0.5s;
+  transition: transform 1s ease-in-out 0.5s;
+  transition: transform 1s ease-in-out 0.5s, -webkit-transform 1s ease-in-out 0.5s;
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+  -webkit-animation-name: upDown;
+          animation-name: upDown;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.missions .missions__image__container .missions__dots {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  -webkit-transition: -webkit-transform 1s ease-in-out 0.5s;
+  transition: -webkit-transform 1s ease-in-out 0.5s;
+  transition: transform 1s ease-in-out 0.5s;
+  transition: transform 1s ease-in-out 0.5s, -webkit-transform 1s ease-in-out 0.5s;
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+  -webkit-animation-name: upDown;
+          animation-name: upDown;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.missions .missions__description {
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.missions .missions__description .missions__description__image {
+  width: 50%;
+  -webkit-transition: -webkit-transform 1s ease-in-out 0.5s;
+  transition: -webkit-transform 1s ease-in-out 0.5s;
+  transition: transform 1s ease-in-out 0.5s;
+  transition: transform 1s ease-in-out 0.5s, -webkit-transform 1s ease-in-out 0.5s;
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+  -webkit-animation-name: upDown;
+          animation-name: upDown;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.missions .missions__description .missions__description__card {
+  width: 40%;
+}
+
+.missions .missions__description .missions__description__card h2 {
+  margin-bottom: 2rem;
+}
+
+.missions .missions__description .missions__description__card p {
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+
+.missions .missions__description .missions__description__card .missions__btn {
+  height: 61px;
+  width: 253px;
+  margin-bottom: 2rem;
+}
+
+.missions .missions__description .missions__description__card .missions__description__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.7rem;
+}
+
+@media (max-width: 768px) {
+  .missions__description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=Missions.css.map */

@@ -1,0 +1,15 @@
+type Configuration @model {
+  id: ID!
+  name: String
+  layouts: [Layout]
+}
+
+type Layout {
+  name: String
+  layers: [Layer]
+}
+
+type Layer {
+  name: String
+  bindings: [String]!
+}

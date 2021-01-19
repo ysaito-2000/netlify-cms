@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/configurator",
+            "lambdaFunction": "redirectLambda",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/configurator"
+        }
+    ],
+    "resourceName": "redirectAPI",
+    "apiName": "redirectAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "redirectLambda"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-usbnexconfigurator-dev-190109-authRole",
+        "unAuthRoleName": "amplify-usbnexconfigurator-dev-190109-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "redirectLambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

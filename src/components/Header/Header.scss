@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 3rem 3rem;
+}
+
+.header__brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  .header__brand__title {
+    transform: translateY(-5px);
+  }
+}
+
+.header__nav {
+  flex-grow: 0.5;
+  ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.header__btn {
+  width: 122.98px;
+  height: 39.61px;
+}
