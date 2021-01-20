@@ -118,13 +118,13 @@ var plugins = [{
     "background_color": "#663399",
     "theme_color": "#663399",
     "display": "minimal-ui",
-    "icon": "src/images/gatsby-icon.png",
+    "icon": "src/images/usbnex-icon.png",
     "legacy": true,
     "theme_color_in_head": true,
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "4a9773549091c227cd2eb82ccd9c5e3a"
+    "cacheDigest": "e54cc62a2c64816313aafe6664747d7e"
   }
 }, {
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-theme-ui/gatsby-ssr */ "./node_modules/gatsby-plugin-theme-ui/gatsby-ssr.js"),

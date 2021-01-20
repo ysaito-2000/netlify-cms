@@ -5,7 +5,7 @@ import "./footer.css"
 
 const Footer = () => (
   <footer className="footer">
-    
+
     <div className="footer__copyright">
       <span
         sx={{
@@ -45,6 +45,26 @@ const Footer = () => (
         }}
       >
         Privacy Notice
+      </Link>
+      <hr />
+      <Link
+        to="/acceptable-use"
+        sx={{
+          color: "accent",
+          fontSize: 16,
+        }}
+      >
+        Acceptable Use
+      </Link>
+      <hr />
+      <Link
+        to="/cookies-policy"
+        sx={{
+          color: "accent",
+          fontSize: 16,
+        }}
+      >
+        Cookies Policy
       </Link>
     </div>
   </footer>
