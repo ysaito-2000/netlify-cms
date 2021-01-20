@@ -13,8 +13,6 @@ collections:
     label: 'Terms of Use'
     folder: 'content/footer-info'
     create: true
-    media_folder: ''
-    public_folder: ''
     path: 'terms/index'
     editor:
       preview: false
@@ -27,8 +25,6 @@ collections:
     label: 'Security Statement'
     folder: 'content/footer-info'
     create: true
-    media_folder: ''
-    public_folder: ''
     path: 'security/index'
     editor:
       preview: false
@@ -41,8 +37,6 @@ collections:
     label: 'Privacy Statement'
     folder: 'content/footer-info'
     create: true
-    media_folder: ''
-    public_folder: ''
     path: 'privacy/index'
     editor:
       preview: false
@@ -55,8 +49,6 @@ collections:
     label: 'Acceptable Use'
     folder: 'content/footer-info'
     create: true
-    media_folder: ''
-    public_folder: ''
     path: 'acceptable/index'
     editor:
       preview: false
@@ -69,8 +61,6 @@ collections:
     label: 'Cookies Policy'
     folder: 'content/footer-info'
     create: true
-    media_folder: ''
-    public_folder: ''
     path: 'cookies/index'
     editor:
       preview: false

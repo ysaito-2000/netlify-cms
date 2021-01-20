@@ -4,6 +4,9 @@ import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
 
 const Layout = ({ location, children }) => {
+
+  // console.log(location, children)
+
   return (
     <>
       <Header path={location && location.pathname ? location.pathname : "/"} />

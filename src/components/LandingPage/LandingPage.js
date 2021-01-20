@@ -17,6 +17,7 @@ function LandingPage() {
     <div className="container">
       <div className="home__page">
         <div className="home__page__svg">
+          {/* MainSVG has incorrect/conflicting linear gradients somewhere in the bottom half of the file */}
           <MainSVG className="main__svg" />
           <div className="usbnex__icon">
             <GatsbyImage src="usbNexIcon" alt="usbnex-icon" />{" "}
