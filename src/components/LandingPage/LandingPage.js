@@ -20,7 +20,6 @@ function LandingPage() {
           <MainSVG className="main__svg" />
           <div className="usbnex__icon">
             <GatsbyImage src="usbNexIcon" alt="usbnex-icon" />{" "}
-            {/*  Using Gatsby Image API */}
           </div>
         </div>
         <div className="home__page__content">

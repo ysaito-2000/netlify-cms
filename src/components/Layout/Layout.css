@@ -3,11 +3,5 @@
   display: -ms-flexbox;
   max-width: fit-content;
   margin: 0 auto;
-  background: linear-gradient(
-    180deg,
-    rgba(72, 27, 83, 0.2) 0%,
-    rgba(252, 252, 252, 0.003125) 99.99%,
-    rgba(255, 255, 255, 1) 100%
-  ),
-  #242731;
+  background: linear-gradient(90deg, #2b5876 0%, #4e4376 100%);
 }

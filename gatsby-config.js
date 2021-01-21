@@ -11,7 +11,7 @@ module.exports = {
     author: `Hakkei`,
     copyright: config.copyright,
   },
-  flags: { PRESERVE_WEBPACK_CACHE: true, FAST_REFRESH: true },
+  flags: { PRESERVE_WEBPACK_CACHE: true, FAST_REFRESH: true, FAST_DEV: true },
   plugins: [
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,

@@ -6,15 +6,13 @@ import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
 import "./Layout.css"
 const Layout = ({ location, children }) => {
-  // <div className="layout" sx={{backgroundSize: 'cover'}}>
   return (
-    <>
+    <div className="layout" sx={{backgroundSize: 'cover'}}>
       <Header path={location && location.pathname ? location.pathname : "/"} />
       <main>{children}</main>
       <Footer />
-    </>
+    </div>
   )
-  // </div>
 }
 
 Layout.propTypes = {
