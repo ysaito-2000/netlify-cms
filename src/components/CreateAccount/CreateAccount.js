@@ -21,10 +21,8 @@ function CreateAccount() {
     password: "",
     code: "",
     stage: 1,
-  });
-
-  const [disbale, setDisable] = useState(false);
-
+  })
+  const [disbale, setDisable] = useState(false)
   const [validation, setValidation] = useState({
     email: {
       valid: false,
@@ -48,7 +46,6 @@ function CreateAccount() {
     },
     networkError: "",
   })
-
   const formHandler = async e => {
     e.preventDefault()
     setDisable(true)
@@ -73,7 +70,7 @@ function CreateAccount() {
         setValidation({ ...validation, networkError: err.message })
       }
     }
-  };
+  }
 
   const verificationHandler = async e => {
     e.preventDefault()
@@ -92,13 +89,11 @@ function CreateAccount() {
         setValidation({ ...validation, networkError: err.message })
       }
     }
-  };
-
+  }
   const inputHandler = ({ target: { name, value } }) => {
     validate(name, value)
     setstate({ ...state, [name]: value })
-  };
-
+  }
   const validate = (name, value) => {
     if (value.length < 1) {
       setValidation({
@@ -109,7 +104,7 @@ function CreateAccount() {
         },
       })
     }
-  };
+  }
 
   const onFocus = ({ target: { name } }) => {
     setValidation({
@@ -121,7 +116,7 @@ function CreateAccount() {
         valid: state[name].length > 0,
       },
     })
-  };
+  }
 
   const onBlur = ({ target: { name } }) => {
     setValidation({
@@ -132,8 +127,7 @@ function CreateAccount() {
         valid: state[name].length > 0,
       },
     })
-  };
-
+  }
   return (
     <div className="container">
       <div className="create__account">

@@ -1,14 +1,14 @@
 import React from "react"
 import SEO from "../components/SEO/SEO"
-import Ryval from "../components/Ryval/Ryval.js"
+import Ryal from "../components/Ryal/Ryal.js"
 
-function RyvalPage() {
+function RyalPage() {
   return (
     <>
-      <SEO title="Ryval" />
-      <Ryval />
+      <SEO title="Ryal" />
+      <Ryal />
     </>
   )
 }
 
-export default RyvalPage
+export default RyalPage

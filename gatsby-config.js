@@ -1,10 +1,19 @@
+const path = require("path")
+const config = require("./data/site-config")
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
-    title: `USBNEX`,
-    description: `Bringing next-gen technology to computer peripherals. It’s about time retail giants got some competition.`,
-    author: `Hakkie & Co`,
+    title: config.siteTitle,
+    description: config.desc,
+    author: `Hakkei`,
+    copyright: config.copyright,
   },
+  flags: { PRESERVE_WEBPACK_CACHE: true, FAST_REFRESH: true },
   plugins: [
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

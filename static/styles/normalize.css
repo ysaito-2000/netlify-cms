@@ -8,7 +8,7 @@
   display: none;
 }
 
-html,body {
+body {
   min-height: 100vh;
 }
 
@@ -26,16 +26,6 @@ li {
   list-style: none;
 }
 
-main {
-
-}
-
 .container {
   padding: 1rem 8rem;
-}
-
-@media (max-width: 1366px) {
-  .container {
-    padding: 1rem 3rem;
-  }
 }

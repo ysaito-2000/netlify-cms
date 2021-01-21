@@ -5,7 +5,7 @@ import Missions from "../components/Missions/Missions"
 const MissionPage = () => {
   return (
     <>
-      <SEO title="Missions" />
+      <SEO title="Explore Usbnex" />
       <Missions />
     </>
   )

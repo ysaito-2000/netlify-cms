@@ -5,7 +5,6 @@ import ConnectionSuccess from "../components/ConnectionSuccess/ConnectionSuccess
 import ConnectionProblem from "../components/ConnectionProblem/ConnectionProblem"
 
 function Login({ location }) {
-  console.log("Location ", location.state?.status)
   return (
     <>
       <SEO title="Login" />

@@ -9,12 +9,12 @@ import TwitterIcon from "../../assets/twitter.svg"
 import AndroidIcon from "../../assets/android.svg"
 import ButtonArrow from "../../assets/button-arrow.svg"
 import NavButton from "../UI/NavButton/NavButton"
+import Layout from "../Layout/Layout"
 /** CSS */
 import "./LandingPage.css"
 
 function LandingPage() {
   return (
-    <div className="container">
       <div className="home__page">
         <div className="home__page__svg">
           <MainSVG className="main__svg" />
@@ -80,7 +80,6 @@ function LandingPage() {
           </div>
         </div>
       </div>
-    </div>
   )
 }
 
