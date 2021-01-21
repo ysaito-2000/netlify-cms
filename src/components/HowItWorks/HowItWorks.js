@@ -13,7 +13,7 @@ function HowItWorks() {
         <div className="sm:text-center lg:text-left">
           <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
             <span className="block xl:inline">
-              Our mission & our responsibility to humanity:
+              Our mission & our responsibility to humanity: {" "}
             </span>
 
             <span className="block text-indigo-600 xl:inline">
