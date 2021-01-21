@@ -1,0 +1,21 @@
+.legal__body {
+  text-align: center;
+}
+.legal__header {
+  font-size: 36px;
+}
+.legal__date {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.legal__info {
+  width: 80%;
+  text-align: left;
+  margin: auto;
+}
+.legal__info p {
+  margin-bottom: 10px;
+}
+.legal__info p a {
+  color: #fe9a93;
+}
