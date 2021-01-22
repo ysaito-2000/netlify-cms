@@ -7,7 +7,7 @@ import Footer from "../Footer/Footer"
 import "./Layout.css"
 const Layout = ({ location, children }) => {
   return (
-    <div className="layout" sx={{backgroundSize: 'cover'}}>
+    <div className="layout" sx={{ backgroundSize: 'cover' }}>
       <Header path={location && location.pathname ? location.pathname : "/"} />
       <main>{children}</main>
       <Footer />
