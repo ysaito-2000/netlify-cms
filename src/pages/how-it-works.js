@@ -5,7 +5,7 @@ import HowItWorks from "../components/HowItWorks/HowItWorks"
 function HowItWorksPage() {
   return (
     <>
-      <SEO title="Missions" />
+      <SEO title="How it works" />
       <HowItWorks />
     </>
   )
