@@ -1,29 +1,30 @@
 /** @jsx jsx */
-import { useEffect, useState } from "react"
 import { jsx } from "theme-ui"
+// eslint-disable-next-line no-unused-vars
 import React from "react"
-import { Link } from "gatsby"
-import Logo from "../../assets/usbnex-logo.svg"
-import NavButton from "../UI/NavButton/NavButton"
+// import { Link } from "gatsby"
+// import Logo from "../../assets/usbnex-logo.svg"
+// import NavButton from "../UI/NavButton/NavButton"
 import NavItem from "./NavItem"
 import "./Header.css"
-import { Auth } from "aws-amplify"
+import { Link } from "gatsby"
+// import { Auth } from "aws-amplify"
 
 const Header = ({ path }) => {
-  const [user, setUser] = useState(null)
-  useEffect(async () => {
-    const user = await Auth.currentAuthenticatedUser()
-    setUser(user)
-  }, [])
-  const logOut = async () => {
-    await Auth.signOut()
-    setUser(null)
-  }
-  const isLogin = path === "/login"
+  // const [user, setUser] = useState(null)
+  // useEffect(async () => {
+  //   const user = await Auth.currentAuthenticatedUser()
+  //   setUser(user)
+  // }, [])
+  // const logOut = async () => {
+  //   await Auth.signOut()
+  //   setUser(null)
+  // }
+  // const isLogin = path === "/login"
 
   return (
     <>
-      <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
+      <div className="relative pt-6 px-4 sm:px-6 lg:px-8 z-20">
         <nav
           className="relative flex items-center justify-between sm:h-10 lg:justify-start"
           aria-label="Global"
@@ -40,7 +41,7 @@ const Header = ({ path }) => {
               <div className="-mr-2 flex items-center md:hidden">
                 <button
                   type="button"
-                  className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                  className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-800 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                   id="main-menu"
                   aria-haspopup="true"
                 >
@@ -54,9 +55,9 @@ const Header = ({ path }) => {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M4 6h16M4 12h16M4 18h16"
                     />
                   </svg>
@@ -99,9 +100,9 @@ const Header = ({ path }) => {
                   aria-hidden="true"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M6 18L18 6M6 6l12 12"
                   />
                 </svg>
@@ -122,13 +123,13 @@ const Header = ({ path }) => {
               <NavItem title="Contact" path="/contact" />
             </div>
             <div role="none">
-              <a
-                href="#"
+              <Link
+                to="/"
                 className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
                 role="menuitem"
               >
                 Log in
-              </a>
+              </Link>
             </div>
           </div>
         </div>

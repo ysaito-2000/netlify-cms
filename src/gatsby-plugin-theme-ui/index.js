@@ -1,13 +1,7 @@
 export default {
   styles: {
     root: {
-      background: `linear-gradient(
-        180deg,
-        rgba(72, 27, 83, 0.2) 0%,
-        rgba(252, 252, 252, 0.003125) 99.99%,
-        rgba(255, 255, 255, 1) 100%
-      ),
-      #242731`,
+      background: `radial-gradient(circle, #4962a9 25%, #2f374d 70%)`,
       mixBlendMode: "normal",
       fontFamily: "Montserrat, sans-serif",
     },
@@ -67,7 +61,7 @@ export default {
       },
       "&:disabled": {
         backgroundColor: "#a69de3",
-        cursor: "not-allowed"
+        cursor: "not-allowed",
       },
     },
     white: {

@@ -3,9 +3,16 @@
   margin-bottom: 200px;
 }
 
+.howItWorks__container {
+  background-color: #f1f8fd;
+  position: relative;
+  box-shadow: 20px 20px 30px 0 rgba(0, 0, 0, 0.1);
+
+}
+
 .howItWorks__text {
   background: linear-gradient(-45deg, #158bfa, #1e91c7, #b6e0c8, #1e8cd4);
-	background-size: 400% 400%;
+  background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
 

@@ -2,7 +2,7 @@ import React from "react"
 
 function Text({ text }) {
   return (
-    <p class="antialiased sm:subpixel-antialiased md:antialiased ...">{text}</p>
+    <p className="antialiased sm:subpixel-antialiased md:antialiased ...">{text}</p>
   )
 }
 

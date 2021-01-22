@@ -4,11 +4,9 @@ import LandingPage from "../components/LandingPage/LandingPage"
 import "../styles/index.css"
 
 const IndexPage = () => (
-  <div className="uk-margin">
-    <div className="layout-content">
-      <SEO title="Home" />
-      <LandingPage />
-    </div>
+  <div className="layout-content">
+    <SEO title="Home" />
+    <LandingPage />
   </div>
 )
 

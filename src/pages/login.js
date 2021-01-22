@@ -8,12 +8,12 @@ function Login({ location }) {
   return (
     <>
       <SEO title="Login" />
-      {location.state?.status === true ? (
+      {location.state.status === true ? (
         <ConnectionSuccess
-          name={location.state?.name}
-          uuid={location.state?.uuid}
+          name={location.state.name}
+          uuid={location.state.uuid}
         />
-      ) : location.state?.status === false ? (
+      ) : location.state.status === false ? (
         <ConnectionProblem />
       ) : (
         <LoginPage />

@@ -2,11 +2,11 @@ footer {
   bottom: 0;
   display: -ms-flexbox;
   display: -webkit-box;
-  display: flex;
   margin: 0 auto;
-  position: -webkit-sticky; /* Safari */
-  position: relative;
+  position: absolute;
   white-space: pre;
+  left:0;
+  bottom:0;
   width: 100vw;
 }
 .footer__container {

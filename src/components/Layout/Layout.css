@@ -1,7 +1,24 @@
 .layout {
+  z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
+  font-family: "Poppins", Inter, sans-serif;
   max-width: fit-content;
   margin: 0 auto;
-  background:radial-gradient(circle, #364b7c 24%,#2a3483 70% );
+  background: radial-gradient(circle, #4962a9 25%, #2f374d 70%);
+  height: 100%;
+  box-shadow: 20px 20px 30px 0 rgba(0, 0, 0, 0.1);
+}
+.bg {
+  -webkit-clip-path: polygon(72% 74%, 100% 27%, 100% 100%, 5% 100%);
+  clip-path: polygon(72% 74%, 100% 27%, 100% 100%, 5% 100%);
+  z-index: -1;
+  background-color: #226dbc;
+}
+
+.bg2 {
+  z-index: -2;
+  background-color: #2a5f98;
+  -webkit-clip-path: polygon(64% 100%, 100% 27%, 62% 67%, 4% 100%);
+  clip-path: polygon(64% 100%, 100% 27%, 62% 67%, 4% 100%);
 }

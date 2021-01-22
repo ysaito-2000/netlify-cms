@@ -1,61 +1,15 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import NavButton from "..//UI/NavButton/NavButton"
-/** SVGs */
-import FacebookIcon from "../../assets/facebook.svg"
-import TwitterIcon from "../../assets/twitter.svg"
-import AndroidIcon from "../../assets/android.svg"
-/** CSS */
-import "./Missions.css"
+import { Link } from "gatsby"
 
 function Missions() {
   return (
-    <div className="container z-0 ">
-      <div
-        sx={{ zIndex: "-99" }}
-        className="relative z-0 max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8"
-      >
-        <svg
-          className="absolute top-0 z-0 transform -translate-x-1/2 "
-          width="404"
-          height="784"
-          fill="none"
-          viewBox="0 0 404 784"
-          aria-hidden="true"
-        >
-          <defs className="z-0">
-            <pattern
-              id="8b1b5f72-e944-4457-af67-0c6d15a99f38"
-              x="0"
-              y="0"
-              width="20"
-              height="20"
-              className="z-0"
-              patternUnits="userSpaceOnUse"
-            >
-              <rect
-                x="0"
-                y="0"
-                width="4"
-                height="4"
-                className="text-gray-200 z-0"
-                fill="currentColor"
-              />
-            </pattern>
-          </defs>
-          <rect
-            width="404"
-            height="784"
-            className="z-0"
-            fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"
-          />
-        </svg>
-      </div>
-      <div class="relative bg-white overflow-hidden">
-        <div class="max-w-7xl mx-auto">
-          <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+    <div className="container">
+      <div className="relative bg-white overflow-hidden rounded-sm border-4 border-light-blue-500 border-opacity-25">
+        <div className="max-w-7xl mx-auto h-full">
+          <div className="relative z-10 pb-8 bg-white sm:pb-16 border border-transparent md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 h-full">
             <svg
-              class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
+              className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
               fill="currentColor"
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
@@ -63,24 +17,24 @@ function Missions() {
             >
               <polygon points="50,0 100,0 50,100 0,100" />
             </svg>
-            <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-              <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-                <div class="px-5 pt-4 flex items-center justify-between">
+            <div className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden border-4 border-light-blue-500 border-opacity-25">
+              <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+                <div className="px-5 pt-4 flex items-center justify-between">
                   <div>
                     <img
-                      class="h-8 w-auto"
+                      className="h-8 w-auto"
                       src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                       alt=""
                     />
                   </div>
-                  <div class="-mr-2">
+                  <div className="-mr-2">
                     <button
                       type="button"
-                      class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                      className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                     >
-                      <span class="sr-only">Close main menu</span>
+                      <span className="sr-only">Close main menu</span>
                       <svg
-                        class="h-6 w-6"
+                        className="h-full w-6"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -88,9 +42,9 @@ function Missions() {
                         aria-hidden="true"
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="M6 18L18 6M6 6l12 12"
                         />
                       </svg>
@@ -99,58 +53,49 @@ function Missions() {
                 </div>
               </div>
             </div>
-            <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-              <div class="sm:text-center lg:text-left">
-                <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                  <span class="block xl:inline">
-                    Our mission & our responsibility for humanity:{" "}
-                  </span>
-                  <span class="block text-indigo-600 xl:inline">
+            <main className="mx-auto max-w-7xl sm:mt-12 sm:px-6 md:mt-16 border-4 border-light-blue-500 border-opacity-25">
+              <div className="sm:text-center lg:text-left">
+                <h1 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl">
+                  <span className="block text-indigo-600 xl:inline">
                     No shady privacy policies or back doors for advertisers.
                   </span>
                 </h1>
-                <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  Web apps should be able to do anything iOS/Android/desktop
-                  apps can. The members of the cross-company capabilities
-                  project want to make it possible for you to build and deliver
-                  apps on the open web that have never been possible before.
-                </p>
-                <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                  <div class="rounded-md shadow">
-                    <a
-                      href="#"
-                      class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                  <div className="rounded-md shadow">
+                    <Link
+                      to="/"
+                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                     >
                       Get started
-                    </a>
+                    </Link>
                   </div>
-                  <div class="mt-3 sm:mt-0 sm:ml-3">
-                    <a
-                      href="#"
-                      class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
+                  <div className="mt-3 sm:mt-0 sm:ml-3">
+                    <Link
+                      to="/"
+                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                     >
                       Live demo
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </main>
           </div>
         </div>
-        <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+        <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 border-4 border-light-blue-500 border-opacity-25">
           <video
             src="https://s3-us-west-1.amazonaws.com/hakkei.cloud/mixkit-man-1240.mp4"
-            autoplay="autoplay"
+            autoPlay="autoplay"
             loop
             playsinline
             muted
           ></video>
         </div>
       </div>
-      <div className="place-self-center py-2 bg-white z-0">
+      <div className="place-self-center mt-8 pt-12 bg-gray-50 z-0 space-y-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
           <div className="z-10 lg:text-center mb-4">
-            <h2 className="text-5xl font-extrabold leading-snug text-transparent lg:leading-tight lg:text-6xl bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+            <h2 className="text-5xl font-bold leading-snug text-transparent lg:leading-tight lg:text-6xl bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 space-y-4">
               A seamless and safer way to connect digitally with your devices{" "}
             </h2>
             <svg
@@ -159,12 +104,12 @@ function Missions() {
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                 <g
                   transform="translate(-1.000000, -14.000000)"
-                  fill-rule="nonzero"
+                  fillRule="nonzero"
                 >
-                  <g className="wave" fill="#f8fafc">
+                  <g className="wave" fill="#F3F4F6">
                     <path d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"></path>
                   </g>
                   <g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
@@ -201,9 +146,9 @@ function Missions() {
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                       />
                     </svg>
@@ -233,9 +178,9 @@ function Missions() {
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
                       />
                     </svg>
@@ -264,9 +209,9 @@ function Missions() {
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M13 10V3L4 14h7v7l9-11h-7z"
                       />
                     </svg>
@@ -296,9 +241,9 @@ function Missions() {
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
                       />
                     </svg>
@@ -317,7 +262,6 @@ function Missions() {
               </div>
             </dl>
           </div>
-          <div className="py-12"></div>
           <div className="bg-gray-50">
             <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
               <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -328,20 +272,20 @@ function Missions() {
               </h2>
               <div className="mt-8 flex space-x-4 lg:mt-0 lg:flex-shrink-0">
                 <div className="inline-flex rounded-md shadow">
-                  <a
-                    href="#"
+                  <Link
+                    to="/"
                     className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Subscribe
-                  </a>
+                  </Link>
                 </div>
                 <div className="ml-3 inline-flex rounded-md shadow">
-                  <a
-                    href="#"
+                  <Link
+                    to="/"
                     className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50"
                   >
                     Learn more
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -1,6 +1,7 @@
 import React from "react"
+import { Link } from "gatsby"
 
-function Contact({ title, path }) {
+function Contact() {
   return (
     <div className="relative bg-transparent">
       <div className="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
@@ -33,9 +34,9 @@ function Contact({ title, path }) {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     />
                   </svg>
@@ -54,9 +55,9 @@ function Contact({ title, path }) {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
@@ -67,9 +68,9 @@ function Contact({ title, path }) {
           </div>
           <p className="mt-6 text-base text-gray-500">
             Looking for careers?
-            <a href="#" className="font-medium text-gray-700 underline">
+            <Link to="/" className="font-medium text-gray-700 underline">
               View all job openings
-            </a>
+            </Link>
             .
           </p>
         </div>
@@ -78,46 +79,46 @@ function Contact({ title, path }) {
         <div className="max-w-md mx-auto lg:max-w-none">
           <form action="#" method="POST" className="grid grid-cols-1 gap-y-6">
             <div>
-              <label for="full_name" className="sr-only">
+              <label htmlFor="full_name" className="sr-only">
                 Full name
               </label>
               <input
                 type="text"
                 name="full_name"
                 id="full_name"
-                autocomplete="name"
+                autoComplete="name"
                 className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
                 placeholder="Full name"
               />
             </div>
             <div>
-              <label for="email" className="sr-only">
+              <label htmlFor="email" className="sr-only">
                 Email
               </label>
               <input
                 id="email"
                 name="email"
                 type="email"
-                autocomplete="email"
+                autoComplete="email"
                 className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
                 placeholder="Email"
               />
             </div>
             <div>
-              <label for="phone" className="sr-only">
+              <label htmlFor="phone" className="sr-only">
                 Phone
               </label>
               <input
                 type="text"
                 name="phone"
                 id="phone"
-                autocomplete="tel"
+                autoComplete="tel"
                 className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
                 placeholder="Phone"
               />
             </div>
             <div>
-              <label for="message" className="sr-only">
+              <label htmlFor="message" className="sr-only">
                 Message
               </label>
               <textarea

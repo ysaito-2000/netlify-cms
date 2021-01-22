@@ -7,49 +7,50 @@ import FacebookIcon from "../../assets/facebook.svg"
 import TwitterIcon from "../../assets/twitter.svg"
 /** CSS */
 import "./HowItWorks.css"
-
+import { Link } from "gatsby"
 function HowItWorks() {
   return (
-    <div className="container howItWorks w-full">
+    <div className="howItWorks__container howItWorks w-full">
       <main className="mt-10 mb-14 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
         <div className="sm:text-left lg:text-left">
-          <p className="leading-6 font-medium text-gray-900 sm:text-5xl md:text-6xl">
-            <span className="block text-indigo-300 xl:inline">
-              What is USBNEX, <br></br>and how does it work?
+          <p className="leading-6 font-medium text-gray-900 sm:text-5xl md:text-6xl text-sm">
+            <span className="block text-indigo-900 xl:inline">
+              What is <span className="font-sans md:font-mono">USBNEX</span>,
+              and how does it work?
             </span>
           </p>
           <dd className="mt-2 text-lg text-gray-500">
-            <span className="text-xl leading-6 block text-indigo-100 xl:inline">
+            <span className="text-xl leading-6 block text-gray-700 xl:inline">
               USBNEX brings together next generation web technology to enable
               connectivity with USB devices over the web. Customize and run
               firmware updates on our products to{" "}
-              <span className="block text-gray-200 xl:inline animate-pulse">
+              <span className=" text-pink-500 xl:inline animate-pulse">
                 seamlessly{" "}
               </span>
               fit your life – all within your{" "}
-              <span className="block text-pink-100 xl:inline">browser.</span>
+              <span className=" text-blue-600 xl:inline">browser.</span>
             </span>
           </dd>
           <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div className="howItWorks__btn rounded-md shadow focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50">
-              <a
-                href="#"
+              <Link
+                to="/"
                 className="howItWorks__text w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
               >
                 Early Access
-              </a>
+              </Link>
             </div>
             <div className="mt-3 sm:mt-0 sm:ml-3">
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
               >
                 Explore Ryval
-              </a>
+              </Link>
             </div>
           </div>
         </div>
-        <p class="mt-1 max-w-2xl text-sm text-gray-500">
+        <p className="mt-1 max-w-2xl text-sm text-gray-500">
           Release Alpha-v1.0.5-dev
         </p>
       </main>
@@ -71,9 +72,9 @@ function HowItWorks() {
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
                       />
                     </svg>
@@ -88,12 +89,12 @@ function HowItWorks() {
                     to any laptop, tablet, or phone.
                   </p>
                   <div className="mt-6">
-                    <a
-                      href="#"
+                    <Link
+                      to="/"
                       className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700"
                     >
                       Get started
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -120,9 +121,9 @@ function HowItWorks() {
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                       />
                     </svg>
@@ -136,14 +137,6 @@ function HowItWorks() {
                     A notification will pop up and direct you to create or log
                     in to your UsbNex account.
                   </p>
-                  <div className="mt-6">
-                    <a
-                      href="#"
-                      className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700"
-                    >
-                      Get started
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -159,12 +152,11 @@ function HowItWorks() {
       <div className="bg-gradient-to-r from-purple-800 to-indigo-700">
         <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
           <h2 className="text-3xl font-extrabold text-white tracking-tight">
-            Inbox support built for efficiency
+            Log in to UsbNex
           </h2>
           <p className="mt-4 max-w-3xl text-lg text-purple-200">
-            Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et
-            magna sit morbi lobortis. Blandit aliquam sit nisl euismod mattis
-            in.
+            UsbNex is your space to fully control and personalize your settings
+            across all our products.
           </p>
           <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
             <div>
@@ -179,9 +171,9 @@ function HowItWorks() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
                     />
                   </svg>
@@ -210,9 +202,9 @@ function HowItWorks() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
                     />
                   </svg>
@@ -241,9 +233,9 @@ function HowItWorks() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
                     />
                   </svg>
@@ -270,9 +262,9 @@ function HowItWorks() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
                     />
                   </svg>
@@ -288,7 +280,6 @@ function HowItWorks() {
                 </p>
               </div>
             </div>
-
             <div>
               <div>
                 <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
@@ -301,9 +292,9 @@ function HowItWorks() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                     />
                   </svg>
@@ -332,9 +323,9 @@ function HowItWorks() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"
                     />
                   </svg>
@@ -363,9 +354,9 @@ function HowItWorks() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"
                     />
                   </svg>
@@ -394,9 +385,9 @@ function HowItWorks() {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
                     />
                   </svg>

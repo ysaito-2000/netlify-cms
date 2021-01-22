@@ -24,9 +24,9 @@ function SuccessPage({ location }) {
             >
               Thank you{" "}
               <span sx={{ textTransform: "uppercase" }}>
-                {location.state?.name}
+                {location.state.name}
               </span>
-              , you're all set!
+              , you&apos;re all set!
             </h2>
           </div>
           <div className="success__page__content__check__email">

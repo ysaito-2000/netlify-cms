@@ -1,4 +1,4 @@
-const path = require("path")
+/* eslint-disable no-undef */
 const config = require("./data/site-config")
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
@@ -11,8 +11,12 @@ module.exports = {
     author: `Hakkei`,
     copyright: config.copyright,
   },
-  flags: { PRESERVE_WEBPACK_CACHE: true, FAST_REFRESH: true, FAST_DEV: true },
+  flags: { FAST_REFRESH: true },
   plugins: [
+    {
+      resolve: `gatsby-transformer-sharp`,
+    },
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     {
@@ -22,8 +26,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

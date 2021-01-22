@@ -5,9 +5,12 @@ module.exports = {
     container: {
       center: true,
     },
+    fontFamily: {
+      body: ["Open Sans"],
+    },
   },
   variants: {
     extend: {},
   },
-  plugins: ["@tailwindcss/forms"],
+  plugins: ["@tailwindcss/forms", "@tailwindcss-neumorphism"],
 }

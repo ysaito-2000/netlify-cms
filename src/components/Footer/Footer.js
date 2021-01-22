@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import "./footer.css"
 
 const Footer = () => (
-  <footer className="bg-white" aria-labelledby="footerHeading">
+  <footer className="bg-white z-10" aria-labelledby="footerHeading">
     <h2 id="footerHeading" className="sr-only">
       Footer
     </h2>
@@ -164,14 +164,14 @@ const Footer = () => (
             The latest news, articles, and resources, sent to your inbox weekly.
           </p>
           <form className="mt-4 sm:flex sm:max-w-md">
-            <label for="emailAddress" className="sr-only">
+            <label htmlFor="emailAddress" className="sr-only">
               Email address
             </label>
             <input
               type="email"
               name="emailAddress"
               id="emailAddress"
-              autocomplete="email"
+              autoComplete="email"
               required
               className="appearance-none min-w-0 w-full bg-white border border-gray-300 rounded-md shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:placeholder-gray-400"
               placeholder="Enter your email"
