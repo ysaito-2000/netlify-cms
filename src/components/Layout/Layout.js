@@ -11,9 +11,11 @@ const Layout = ({ location, children }) => {
     <>
       <Header path={location && location.pathname ? location.pathname : "/"} />
       <div className="layout" sx={{ backgroundSize: "cover" }}>
-        <main>{children}</main>
+        <main>
+          {children}
+          <Footer />
+        </main>
       </div>
-      <Footer />
     </>
   )
 }

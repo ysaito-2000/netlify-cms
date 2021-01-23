@@ -23,28 +23,21 @@ const Header = ({ path }) => {
   return (
     <>
       <nav className="bg-white shadow">
-        <div className="max-w-7xl m-auto px-4 sm:px-6 lg:px-8 ">
+        <div className="m-auto px-4 sm:px-6  ">
           <div className="flex">
-            <div className="flex-shrink-0 flex items-center">
+            <div className="flex-shrink-0 flex items-center justify-start">
               <div className="flex-shrink-0 flex items-center">
                 <Link to="/">
                   <img
-                    className="block  h-8 w-auto"
+                    className="block h-8 w-auto"
                     src="https://s3-us-west-1.amazonaws.com/hakkei.cloud/usbnex-logo.svg"
                     alt="Workflow"
                   />
                 </Link>
               </div>
-            </div>
             <div className="flex justify-between h-16">
               <div className="flex">
                 <div className="-ml-2 mr-2 flex items-center md:hidden">
-                  <img
-                    width="20"
-                    src="https://s3-us-west-1.amazonaws.com/hakkei.cloud/usbnex-logo.svg"
-                    alt="How It Works 2"
-                  />
-
                   <button
                     className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                     aria-expanded="false"
@@ -92,6 +85,7 @@ const Header = ({ path }) => {
                   <NavItem title="Contact" path="/contact" />
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
