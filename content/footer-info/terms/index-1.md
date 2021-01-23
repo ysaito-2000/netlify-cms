@@ -8,7 +8,6 @@ the use of this Application, and,
 any other related Agreement or legal relationship with the Owner
 in a legally binding way. Capitalized words are defined in the relevant dedicated section of this document.
 
-
 The User must read this document carefully.
 
 This Application is provided by:
@@ -78,22 +77,6 @@ Access to external resources
 Through this Application Users may have access to external resources provided by third parties. Users acknowledge and accept that the Owner has no control over such resources and is therefore not responsible for their content and availability.
 
 Conditions applicable to any resources provided by third parties, including those applicable to any possible grant of rights in content, result from each such third parties’ terms and conditions or, in the absence of those, applicable statutory law.
-
-Acceptable use
-This Application and the Service may only be used within the scope of what they are provided for, under these Terms and applicable law.
-
-Users are solely responsible for making sure that their use of this Application and/or the Service violates no applicable law, regulations or third-party rights.
-
-Therefore, the Owner reserves the right to take any appropriate measure to protect its legitimate interests including by denying Users access to this Application or the Service, terminating contracts, reporting any misconduct performed through this Application or the Service to the competent authorities – such as judicial or administrative authorities - whenever Users engage or are suspected to engage in any of the following activities:
-
-violate laws, regulations and/or these Terms;
-infringe any third-party rights;
-considerably impair the Owner’s legitimate interests;
-offend the Owner or any third party.
-Liability and indemnification
-EU Users
-Indemnification
-The User agrees to indemnify and hold the Owner and its subsidiaries, affiliates, officers, directors, agents, co-branders, partners and employees harmless from and against any claim or demand ⁠— including but not limited to lawyer's fees and costs ⁠— made by any third party due to or in relation with any culpable use of or connection to the Service, violation of these Terms, infringement of any third-party rights or statutory provision by the User or its affiliates, officers, directors, agents, co-branders, partners and employees to the extent allowed by applicable law.
 
 Limitation of liability
 Unless otherwise explicitly stated and without prejudice to applicable statutory product liability provisions, Users shall have no right to claim damages against the Owner (or any natural or legal person acting on its behalf).
@@ -178,4 +161,3 @@ All communications relating to the use of this Application must be sent using th
 
 Severability
 Should any provision of these Terms be deemed or become invalid or unenforceable under applicable law, the invalidity or unenforceability of such provision shall not affect the validity of the remaining provisions, which shall remain in full force and effect.
-
