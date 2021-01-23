@@ -1,5 +1,6 @@
 /* eslint-disable no-undef */
 const config = require("./data/site-config")
+const path = require('path');
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
@@ -27,6 +28,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `assets`,
+        path: path.join(__dirname, `src`, `templates`),
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
@@ -45,6 +53,38 @@ module.exports = {
         rule: {
           include: /assets/,
         },
+      },
+    },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-embed-video`,
+            options: {
+              maxWidth: 800,
+              ratio: 1.77,
+              height: 400,
+              related: false,
+              noIframerder: true,
+            },
+          },
+          {
+            resolve: `gatsby-remark-relative-images`,
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 690,
+            },
+          },
+          {
+            resolve: "gatsby-remark-responsive-iframe",
+          },
+          "gatsby-remark-copy-linked-files",
+          "gatsby-remark-autolink-headers",
+          "gatsby-remark-prismjs",
+        ],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

@@ -1,19 +1,11 @@
 footer {
-  bottom: 0;
-  display: -ms-flexbox;
-  display: -webkit-box;
   margin: 0 auto;
-  position: absolute;
   white-space: pre;
-  left:0;
-  bottom:0;
-  width: 100vw;
 }
 .footer__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  position: absolute;
   left: 0;
   bottom: 0;
   width: 90%;

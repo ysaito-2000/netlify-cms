@@ -1,7 +1,7 @@
 export default {
   styles: {
     root: {
-      background: `radial-gradient(circle, #4962a9 25%, #2f374d 70%)`,
+      background: `linear-gradient(180deg, #4f3a84 65%,#120444 100% )`,
       mixBlendMode: "normal",
       fontFamily: "Montserrat, sans-serif",
     },

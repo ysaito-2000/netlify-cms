@@ -1,13 +1,11 @@
 .layout {
-  z-index: 10;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  z-index: 20;
   font-family: "Poppins", Inter, sans-serif;
-  max-width: fit-content;
   margin: 0 auto;
-  background: radial-gradient(circle, #4962a9 25%, #2f374d 70%);
   height: 100%;
-  box-shadow: 20px 20px 30px 0 rgba(0, 0, 0, 0.1);
+  background: transparent;
+  /* background: url('../../../static/images/animationbg.png'); */
+  background-repeat:no-repeat;
 }
 .bg {
   -webkit-clip-path: polygon(72% 74%, 100% 27%, 100% 100%, 5% 100%);

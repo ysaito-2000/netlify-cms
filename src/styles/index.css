@@ -28,13 +28,14 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow-y: auto;
   width: 100%;
   font-family: "Poppins", Inter, sans-serif;
+
 }
 
 .layout-content {
   width: 100vw;
+  overflow-y: auto;
 }
 
 @keyframes gradient {

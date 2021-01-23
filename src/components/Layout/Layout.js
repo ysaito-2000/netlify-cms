@@ -8,11 +8,13 @@ import Footer from "../Footer/Footer"
 import "./Layout.css"
 const Layout = ({ location, children }) => {
   return (
-    <div className="layout" sx={{ backgroundSize: "cover" }}>
+    <>
       <Header path={location && location.pathname ? location.pathname : "/"} />
-      <main>{children}</main>
+      <div className="layout" sx={{ backgroundSize: "cover" }}>
+        <main>{children}</main>
+      </div>
       <Footer />
-    </div>
+    </>
   )
 }
 

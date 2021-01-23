@@ -55,5 +55,5 @@
     "browser": true,
     "amd": true,
     "node": true
-}
+  }
 }
