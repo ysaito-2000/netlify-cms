@@ -1,5 +1,5 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+import { Link } from 'gatsby';
 
 function Contact() {
   return (
@@ -127,7 +127,7 @@ function Contact() {
                 rows="4"
                 className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
                 placeholder="Message"
-              ></textarea>
+              />
             </div>
             <div>
               <button
@@ -141,7 +141,7 @@ function Contact() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

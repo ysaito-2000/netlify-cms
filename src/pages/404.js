@@ -1,7 +1,7 @@
-import React from "react"
-import Layout from "../components/Layout/Layout"
-import SEO from "../components/SEO/SEO"
-import NavButton from "../components/UI/NavButton/NavButton"
+import React from 'react';
+import Layout from '../components/Layout/Layout';
+import SEO from '../components/SEO/SEO';
+import NavButton from '../components/UI/NavButton/NavButton';
 
 const NotFoundPage = () => (
   <Layout HeaderNavButton={NotFoundNavButton}>
@@ -11,9 +11,9 @@ const NotFoundPage = () => (
       <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
     </div>
   </Layout>
-)
+);
 
-export default NotFoundPage
+export default NotFoundPage;
 
 function NotFoundNavButton() {
   return (
@@ -23,5 +23,5 @@ function NotFoundNavButton() {
       className="header__btn"
       variant="primary"
     />
-  )
+  );
 }

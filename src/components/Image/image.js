@@ -1,6 +1,6 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -24,11 +24,11 @@ const Image = ({ src, alt, className }) => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <>
-      {src === "usbNexIcon" ? (
+      {src === 'usbNexIcon' ? (
         <Img
           fluid={data.usbNexIcon.childImageSharp.fluid}
           alt={alt}
@@ -36,7 +36,7 @@ const Image = ({ src, alt, className }) => {
         />
       ) : null}
     </>
-  )
-}
+  );
+};
 
-export default Image
+export default Image;

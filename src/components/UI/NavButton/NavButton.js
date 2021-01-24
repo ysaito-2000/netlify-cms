@@ -1,7 +1,7 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
-import { Link } from "gatsby"
-import "./NavButton.css"
+import { jsx } from 'theme-ui';
+import { Link } from 'gatsby';
+import './NavButton.css';
 
 function Button({ title, link }) {
   return (
@@ -33,7 +33,7 @@ function Button({ title, link }) {
         <Link to={`${link}`}>{title}</Link>
       </p>
     </div>
-  )
+  );
 }
 
-export default Button
+export default Button;

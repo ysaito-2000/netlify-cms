@@ -1,9 +1,12 @@
-import "./src/styles/global.css"
-import CustomLayout from "./wrapPageElement"
-import "./static/styles/fonts.css"
-import "./static/styles/normalize.css"
-import Amplify, { Auth } from "aws-amplify"
-import awsConfig from "./src/aws-exports"
-Amplify.configure(awsConfig)
+import './src/styles/global.css';
+import Amplify from 'aws-amplify';
+import './static/styles/fonts.css';
+import './static/styles/normalize.css';
+import awsConfig from './src/aws-exports';
+import CustomLayout from './wrapPageElement';
 
-export const wrapPageElement = CustomLayout
+console.log('ENV', `${process.env.GATSBY_DEV_MODE}`, process.env.GATSBY_API_URL);
+Amplify.configure(awsConfig);
+
+// eslint-disable-next-line import/prefer-default-export
+export const wrapPageElement = CustomLayout;

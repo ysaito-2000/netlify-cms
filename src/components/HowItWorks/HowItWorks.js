@@ -1,13 +1,14 @@
-import React from "react"
-import Banner from "../Banner/Banner"
-import TwoColumn from "../TwoColumn/TwoColumn"
-import AndroidIcon from "../../assets/android.svg"
+import React from 'react';
+import Banner from '../Banner/Banner';
+import TwoColumn from '../TwoColumn/TwoColumn';
+import AndroidIcon from '../../assets/android.svg';
 /** SVGs */
-import FacebookIcon from "../../assets/facebook.svg"
-import TwitterIcon from "../../assets/twitter.svg"
+import FacebookIcon from '../../assets/facebook.svg';
+import TwitterIcon from '../../assets/twitter.svg';
 /** CSS */
-import "./HowItWorks.css"
-import { Link } from "gatsby"
+import './HowItWorks.css';
+import { Link } from 'gatsby';
+
 function HowItWorks() {
   return (
     <div className="howItWorks__container howItWorks w-full">
@@ -15,7 +16,10 @@ function HowItWorks() {
         <div className="sm:text-left lg:text-left">
           <p className="leading-6 font-medium text-gray-900 sm:text-5xl md:text-6xl text-sm">
             <span className="block text-indigo-900 xl:inline">
-              What is <span className="font-sans md:font-mono">USBNEX</span>,
+              What is
+              {' '}
+              <span className="font-sans md:font-mono">USBNEX</span>
+              ,
               and how does it work?
             </span>
           </p>
@@ -23,11 +27,14 @@ function HowItWorks() {
             <span className="text-xl leading-6 block text-gray-700 xl:inline">
               USBNEX brings together next generation web technology to enable
               connectivity with USB devices over the web. Customize and run
-              firmware updates on our products to{" "}
+              firmware updates on our products to
+              {' '}
               <span className=" text-pink-500 xl:inline animate-pulse">
-                seamlessly{" "}
+                seamlessly
+                {' '}
               </span>
-              fit your life – all within your{" "}
+              fit your life – all within your
+              {' '}
               <span className=" text-blue-600 xl:inline">browser.</span>
             </span>
           </dd>
@@ -418,7 +425,7 @@ function HowItWorks() {
             <div
               aria-hidden="true"
               className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"
-            ></div>
+            />
           </div>
         </div>
       </div>
@@ -428,7 +435,7 @@ function HowItWorks() {
         <AndroidIcon />
       </div>
     </div>
-  )
+  );
 }
 
-export default HowItWorks
+export default HowItWorks;

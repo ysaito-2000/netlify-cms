@@ -1,11 +1,11 @@
-import React from "react"
-import SEO from "../components/SEO/SEO"
-import LoginPage from "../components/Login/LoginPage"
-import ConnectionSuccess from "../components/ConnectionSuccess/ConnectionSuccess"
-import ConnectionProblem from "../components/ConnectionProblem/ConnectionProblem"
+import React from 'react';
+import SEO from '../components/SEO/SEO';
+import LoginPage from '../components/Login/LoginPage';
+import ConnectionSuccess from '../components/ConnectionSuccess/ConnectionSuccess';
+import ConnectionProblem from '../components/ConnectionProblem/ConnectionProblem';
 
 function Login({ location }) {
-  const {state} = location;
+  const { state } = location;
   return (
     <>
       <SEO title="Login" />
@@ -20,7 +20,7 @@ function Login({ location }) {
         <LoginPage />
       )}
     </>
-  )
+  );
 }
 
-export default Login
+export default Login;

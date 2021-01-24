@@ -1,11 +1,11 @@
-import React from "react"
-import NavButton from "..//UI/NavButton/NavButton"
+import React from 'react';
+import NavButton from '../UI/NavButton/NavButton';
 /** SVGs */
-import FacebookIcon from "../../assets/facebook.svg"
-import TwitterIcon from "../../assets/twitter.svg"
-import AndroidIcon from "../../assets/android.svg"
+import FacebookIcon from '../../assets/facebook.svg';
+import TwitterIcon from '../../assets/twitter.svg';
+import AndroidIcon from '../../assets/android.svg';
 /** CSS */
-import "./Ryal.css"
+import './Ryal.css';
 
 function Ryal() {
   return (
@@ -15,7 +15,8 @@ function Ryal() {
           Our keyboard is not an ordinary keyboard you might be thinking. There
           are a number of unique features that take it to another level, such as
           key mappings, changing lights, configured profiles, and many more that
-          you can find in the features section.{" "}
+          you can find in the features section.
+          {' '}
         </p>
         <div className="ryal__description">
           <div className="ryal__description__image">
@@ -51,7 +52,7 @@ function Ryal() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Ryal
+export default Ryal;

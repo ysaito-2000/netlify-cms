@@ -1,12 +1,12 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
-import { Link } from "gatsby"
-import "./footer.css"
+import { jsx } from 'theme-ui';
+import { Link } from 'gatsby';
+import './footer.css';
 
 const Footer = () => (
-  <div style={{ width: "100vw" }} className="bg-white w-full absolute bottom-0">
+  <div style={{ width: '100vw' }} className="bg-white w-full absolute bottom-0">
     <footer
-      style={{ width: "100vw", fontFamily: "Poppins" }}
+      style={{ width: '100vw', fontFamily: 'Poppins' }}
       className="z-40 h-0 bottom-0 absolute bg-white text-gray-800 text-sm"
       aria-labelledby="footerHeading"
     >
@@ -24,7 +24,7 @@ const Footer = () => (
                 <Link
                   to="/terms-of-use"
                   sx={{
-                    color: "accent",
+                    color: 'accent',
                     fontSize: 16,
                   }}
                 >
@@ -34,7 +34,7 @@ const Footer = () => (
                 <Link
                   to="/security-statement"
                   sx={{
-                    color: "accent",
+                    color: 'accent',
                     fontSize: 16,
                   }}
                 >
@@ -44,7 +44,7 @@ const Footer = () => (
                 <Link
                   to="/privacy-notice"
                   sx={{
-                    color: "accent",
+                    color: 'accent',
                     fontSize: 16,
                   }}
                 >
@@ -60,7 +60,7 @@ const Footer = () => (
                 <Link
                   to="/terms-of-use"
                   sx={{
-                    color: "accent",
+                    color: 'accent',
                     fontSize: 16,
                   }}
                 >
@@ -70,7 +70,7 @@ const Footer = () => (
                 <Link
                   to="/security-statement"
                   sx={{
-                    color: "accent",
+                    color: 'accent',
                     fontSize: 16,
                   }}
                 >
@@ -80,7 +80,7 @@ const Footer = () => (
                 <Link
                   to="/privacy-notice"
                   sx={{
-                    color: "accent",
+                    color: 'accent',
                     fontSize: 16,
                   }}
                 >
@@ -97,7 +97,7 @@ const Footer = () => (
               <Link
                 to="/terms-of-use"
                 sx={{
-                  color: "accent",
+                  color: 'accent',
                   fontSize: 16,
                 }}
               >
@@ -107,7 +107,7 @@ const Footer = () => (
               <Link
                 to="/security-statement"
                 sx={{
-                  color: "accent",
+                  color: 'accent',
                   fontSize: 16,
                 }}
               >
@@ -117,7 +117,7 @@ const Footer = () => (
               <Link
                 to="/privacy-notice"
                 sx={{
-                  color: "accent",
+                  color: 'accent',
                   fontSize: 16,
                 }}
               >
@@ -164,6 +164,6 @@ const Footer = () => (
       </p>
     </footer>
   </div>
-)
+);
 
-export default Footer
+export default Footer;

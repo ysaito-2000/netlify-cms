@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react';
 
 function LandingShowcase() {
   return (
@@ -96,7 +96,7 @@ function LandingShowcase() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default LandingShowcase
+export default LandingShowcase;
