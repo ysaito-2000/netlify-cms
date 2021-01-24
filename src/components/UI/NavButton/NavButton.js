@@ -24,7 +24,7 @@ function Button({ title, link }) {
           className="z-50 w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500"
         >
           <div className="z-10 mt-3 ml-2 rounded-md sm:mt-0 sm:flex-shrink-0">
-            Notify me
+            Notify Me
           </div>
         </button>
       </form>

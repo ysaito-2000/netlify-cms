@@ -159,7 +159,7 @@ const Footer = () => (
           </div>
         </div>
       </div>
-      <p className="mt-8 text-base text-gray-800 md:mt-0 md:order-1">
+      <p className="mt-8 text-base text-gray-100 md:mt-0 md:order-1">
         &copy; 2020-2021 Hakkei & Co LLC
       </p>
     </footer>

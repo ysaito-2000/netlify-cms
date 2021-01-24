@@ -9,6 +9,7 @@ import Rocket from "../../assets/Rocket.svg"
 import "./SuccessPage.css"
 
 function SuccessPage({ location }) {
+  const {state} = location;
   return (
     <div className="container">
       <div className="success__page">
@@ -24,7 +25,7 @@ function SuccessPage({ location }) {
             >
               Thank you{" "}
               <span sx={{ textTransform: "uppercase" }}>
-                {location.state.name}
+                {state && state.name}
               </span>
               , you&apos;re all set!
             </h2>
