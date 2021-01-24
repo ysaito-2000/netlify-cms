@@ -14,7 +14,7 @@ const Header = ({ path }) => (
           <div className="flex-shrink-0 flex items-center">
             <Link to="/">
               <img
-                className="block h-8 w-auto"
+                className="block h-7 w-auto"
                 src="https://s3-us-west-1.amazonaws.com/hakkei.cloud/usbnex-logo.svg"
                 alt="Workflow"
               />
@@ -22,12 +22,15 @@ const Header = ({ path }) => (
           </div>
           <div className="flex justify-between h-16">
             <div className="flex">
-              <div className="-ml-2 mr-2 flex items-center md:hidden">
+              <div className="-ml-2 mr-2 flex items-center sm:hidden">
+                <Link to="/" className="text-black">
+                 <span>USBNEX</span>
+                </Link>
                 <button
                   className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                   aria-expanded="false"
                 >
-                  <span className="sr-only">Open main menu</span>
+                  <span className="sr-only float-right">Open main menu</span>
                   <svg
                     className="block h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"

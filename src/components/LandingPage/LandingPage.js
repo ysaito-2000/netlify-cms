@@ -11,6 +11,8 @@ import AnimatedBg from '../AnimatedBg';
 import LandingShowcase from '../LandingShowcase';
 import './LandingPage.css';
 
+const prodTitle = "Easy one-click setup";
+const underConstruction = "Site Under Construction";
 function LandingPage() {
   return (
     <>
@@ -25,32 +27,40 @@ function LandingPage() {
               <div className="md:max-w-xs px-8 md:flex-col lg:max-w-lg">
                 <span
                   sx={{
-                    color: 'text',
+                    color: "text",
                     fontSize: 40,
                     fontWeight: 200,
                     lineHeight: 1.5,
                   }}
                 >
                   <img
-                    sx={{ objectPosition: '-2rem' }}
+                    sx={{ objectPosition: "-4rem 4rem" }}
                     width="500px"
                     className="block w-200"
                     src="https://s3-us-west-1.amazonaws.com/hakkei.cloud/ryvallogo.png"
                     alt="Workflow"
                   />
                   <br />
-                  <span className="whitespace-pre">Get setup in one click</span>
+                  <span className="whitespace-pre">
+                    {process.env.COMING_SOON === "true"
+                      ? underConstruction
+                      : prodTitle}
+                  </span>
                   <p className="mt-3 text-lg text-gray-300">
                     USBNEX is loaded with free features to fully customize,
                     update, and adjust your keyboard all within your browser on
                     any device.
                   </p>
                 </span>
-                <NavButton
-                  title=" Privacy Policy"
-                  link="/signup"
-                  variant="white"
-                />
+                {process.env.COMING_SOON === "true" ? (
+                  null
+                ) : (
+                  <NavButton
+                    title=" Privacy Policy"
+                    link="/signup"
+                    variant="white"
+                  />
+                )}
               </div>
               <div className="home__page__content">
                 <div className="home__page__content__social">

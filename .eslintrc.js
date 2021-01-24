@@ -5,6 +5,7 @@ module.exports = {
     },
     ecmaVersion: 2018,
     sourceType: "module",
+    version: "17.0.1",
   },
   extends: ["eslint:recommended", "prettier", "plugin:react/recommended"],
   plugins: ["react", "jsx-a11y", "import"],

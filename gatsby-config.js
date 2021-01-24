@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+// eslint-disable-next-line no-unused-vars
 const path = require('path');
 const config = require('./data/site-config');
 
@@ -42,13 +42,6 @@ module.exports = {
       options: {
         name: 'images',
         path: `${__dirname}/src/images`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'assets',
-        path: path.join(__dirname, 'src', 'templates'),
       },
     },
     {

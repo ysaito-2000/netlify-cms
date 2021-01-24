@@ -75,16 +75,12 @@
 }
 
 .home__page__content .home__page__content__social {
-  padding: 60px 0;
-  -ms-flex-item-align: end;
-  align-self: flex-end;
+  padding: 30px;
+  align-self: flex-start;
   display: flex;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+  justify-content: flex-start;
+  align-items: flex-start;
   gap: 1.5rem;
 }
 

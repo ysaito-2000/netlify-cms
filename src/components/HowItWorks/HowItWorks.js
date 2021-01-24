@@ -348,7 +348,6 @@ function HowItWorks() {
                 </p>
               </div>
             </div>
-
             <div>
               <div>
                 <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">

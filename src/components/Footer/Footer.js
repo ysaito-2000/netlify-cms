@@ -13,7 +13,7 @@ const Footer = () => (
       <h2 id="footerHeading bg-white " className="sr-only">
         Footer
       </h2>
-      <div className="bg-white sm:px-6 lg:py-8 right-0 w-full">
+      <div className="bg-white sm:px-6 lg:py-8 right-0 w-full ">
         <div className="xl:grid xl:grid-cols-3 w-full">
           <div className=" bg-white grid grid-cols-2 gap-8 xl:col-span-2">
             <div className="mt-12 py-8 md:mt-0">

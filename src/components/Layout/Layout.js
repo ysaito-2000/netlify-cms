@@ -9,11 +9,13 @@ import './Layout.css';
 
 const Layout = ({ location, children }) => (
   <>
-    <Header path={location && location.pathname ? location.pathname : '/'} />
-    <div className="layout" sx={{ backgroundSize: 'cover' }}>
+    {process.env.COMING_SOON !== "true" ? (
+      <Header path={location && location.pathname ? location.pathname : "/"} />
+    ) : null}
+    <div className="layout" sx={{ backgroundSize: "cover" }}>
       <main>
         {children}
-        <Footer />
+        {process.env.COMING_SOON !== "true" ? <Footer /> : null}
       </main>
     </div>
   </>
