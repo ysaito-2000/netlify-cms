@@ -11,10 +11,11 @@ const prodTitle = "Easy one-click setup";
 const underConstruction = "Site Under Construction";
 function LandingPage() {
   return (
-    <>
+    <div className="home__page">
       <div
         sx={{
           height: 0,
+          bg: "linear-gradient(180deg, #4f3a84 65%,#120444 100% )",
         }}
       >
         <div className="absolute top-0 left-0 w-full h-full">
@@ -67,12 +68,17 @@ function LandingPage() {
               <div className="divide-y-4 divide-yellow-600 divide-dashed m-auto flex justify-start" />
             </div>
           </div>
-          <section className="min-w-full h-auto">
+          <section
+            className="min-w-full h-auto"
+            sx={{
+              background: "linear-gradient(0deg,#0d002d 65%,#120444 100% );",
+            }}
+          >
             <LandingShowcase />
           </section>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

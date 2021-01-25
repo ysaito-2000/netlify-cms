@@ -1,3 +1,6 @@
+/** @jsx jsx */
+import { jsx } from 'theme-ui';
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import Banner from "../Banner/Banner";
 import TwoColumn from "../TwoColumn/TwoColumn";
@@ -8,20 +11,20 @@ import TwitterIcon from "../../assets/twitter.svg";
 /** CSS */
 import "./HowItWorks.css";
 import { Link } from "gatsby";
-
+import TextLogo from "../../assets/textLogo.svg";
 function HowItWorks() {
   return (
     <div className="howItWorks__container howItWorks w-full h-full">
       <div className="mb-14 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8">
         <div className="sm:text-left lg:text-left">
-          <p className="leading-6 font-medium text-gray-900 sm:text-5xl md:text-6xl text-sm">
+          <p className="leading-6 text-gray-900 sm:text-5xl text-sm max-w-lg">
             <span className="block text-indigo-900 xl:inline">
-              What is <span className="font-sans md:font-mono">USBNEX</span>,
+              What is <span className="font-sans md:font-mono"><TextLogo className="inline w-40"/></span>,
               and how does it work?
             </span>
           </p>
           <dd className="mt-2 text-lg text-gray-500">
-            <span className="text-xl leading-6 block text-gray-700 xl:inline">
+            <span className="text-xl leading-6 block text-gray-700 xl:inline font-light">
               USBNEX brings together next generation web technology to enable
               connectivity with USB devices over the web. Customize and run
               firmware updates on our products to{" "}
