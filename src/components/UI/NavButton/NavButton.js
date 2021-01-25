@@ -17,7 +17,7 @@ function Button({ title, link }) {
           autoComplete="email"
           required
           className="py-3 border px-4 border-transparent placeholder-gray-500 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white  rounded-md"
-          placeholder="Enter your email"
+          placeholder="Email address"
         />
         <button
           type="submit"
@@ -28,9 +28,11 @@ function Button({ title, link }) {
           </div>
         </button>
       </form>
-      <p className="mt-3 text-sm text-gray-300 ">
+      <p className="mt-3 text-sm text-gray-400 ">
         We care about the protection of your data. Read our
-        <Link to={`${link}`}>{title}</Link>
+        <Link className="text-indigo-500" to={`${link}`}>
+          {title}
+        </Link>
       </p>
     </div>
   );

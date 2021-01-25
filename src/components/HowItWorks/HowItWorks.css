@@ -1,23 +1,25 @@
 .howItWorks {
-  padding-top: 3rem;
   margin-bottom: 200px;
 }
 
 .howItWorks__container {
-  background-color: #f1f8fd;
+  background: linear-gradient(circle, #4f3a84 16%,#5d33cf 32%,#4f3a84 37%,#120444 100% );
   position: relative;
   box-shadow: 20px 20px 30px 0 rgba(0, 0, 0, 0.1);
 
 }
 
+.howItWorks__section {
+  background: linear-gradient( #4f3a84 16%,#120444 100% );
+
+}
 .howItWorks__text {
-  background: linear-gradient(-45deg, #158bfa, #1e91c7, #b6e0c8, #1e8cd4);
+  background: linear-gradient(45deg, #158bfa, #1e91c7, #b6e0c8, #1e8cd4);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
 
 .howItWorks__btn {
-  background: linear-gradient(-45deg, #52d7ee, #70bcdf, #43b4dd, #70bef3);
   background-size: 400% 400%;
   animation: gradient 4s ease infinite;
 }
@@ -30,7 +32,6 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=HowItWorks.css.map */
