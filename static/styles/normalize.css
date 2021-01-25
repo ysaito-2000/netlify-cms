@@ -28,4 +28,5 @@ li {
 
 .container {
   border: none;
+  width: 100vw;
 }

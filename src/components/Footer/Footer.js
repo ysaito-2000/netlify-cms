@@ -5,10 +5,10 @@ import "./footer.css";
 import DiscordSVG2 from "../../assets/discordWordmark.svg";
 
 const Footer = () => (
-  <div style={{ width: "100vw" }} className="bg-black w-full absolute bottom-0">
+  <div style={{ width: "100vw" }} className="bg-black w-full">
     <footer
       style={{ width: "100vw", fontFamily: "Poppins" }}
-      className="z-40 h-0 bottom-0 absolute bg-black text-gray-800 text-sm"
+      className="z-40 h-0 bg-black text-gray-800 text-sm"
       aria-labelledby="footerHeading"
     >
       <h2 id="footerHeading text-gray-800" className="sr-only">

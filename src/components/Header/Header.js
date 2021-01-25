@@ -65,7 +65,7 @@ const Header = ({ path }) => (
               </div>
               <div className="flex-shrink-0 flex items-center" />
               <div className="hidden md:ml-6 md:flex md:space-x-8 m-auto">
-                <NavItem title="Explore" path="/missions" />
+                <NavItem title="Explore" path="/explore" />
 
                 <NavItem title="How it Works" path="/how-it-works" />
 
