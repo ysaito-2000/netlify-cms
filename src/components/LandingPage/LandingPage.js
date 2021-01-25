@@ -1,16 +1,12 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
+import { jsx } from "theme-ui";
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
-import FacebookIcon from '../../assets/facebook.svg';
-import TwitterIcon from '../../assets/twitter.svg';
-import AndroidIcon from '../../assets/android.svg';
-import NavButton from '../UI/NavButton/NavButton';
+import React from "react";
+import NavButton from "../UI/NavButton/NavButton";
 // eslint-disable-next-line no-unused-vars
-import AnimatedBg from '../AnimatedBg';
-import LandingShowcase from '../LandingShowcase';
-import './LandingPage.css';
-
+import AnimatedBg from "../AnimatedBg";
+import LandingShowcase from "../LandingShowcase";
+import "./LandingPage.css";
 const prodTitle = "Easy one-click setup";
 const underConstruction = "Site Under Construction";
 function LandingPage() {
@@ -52,9 +48,7 @@ function LandingPage() {
                     any device.
                   </p>
                 </span>
-                {process.env.COMING_SOON === "true" ? (
-                  null
-                ) : (
+                {process.env.COMING_SOON === "true" ? null : (
                   <NavButton
                     title=" Privacy Policy"
                     link="/signup"
@@ -62,13 +56,7 @@ function LandingPage() {
                   />
                 )}
               </div>
-              <div className="home__page__content">
-                <div className="home__page__content__social">
-                  <FacebookIcon />
-                  <TwitterIcon />
-                  <AndroidIcon />
-                </div>
-              </div>
+              <div className="home__page__content"></div>
             </div>
             <div className="home__page__content ">
               <figure>

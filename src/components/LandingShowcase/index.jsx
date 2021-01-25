@@ -10,21 +10,6 @@ function LandingShowcase() {
           <dl className="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-24">
             <div>
               <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                {/* <svg
-                  className="h-6 w-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                  />
-                </svg> */}
                 <UpdateSharpIcon />
               </div>
               <div className="mt-5">
@@ -59,7 +44,7 @@ function LandingShowcase() {
               </div>
               <div className="mt-5">
                 <dt className="text-lg leading-6  text-indigo-100 uppercase tracking-wide">
-                  Cloud Configurartions
+                  Cloud Configurations
                 </dt>
                 <p className="mt-2 text-base text-gray-200 font-light tracking-wide">
                   Take your saved profiles anywhere. Your configurations are
