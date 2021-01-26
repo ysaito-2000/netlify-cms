@@ -1,13 +1,7 @@
 export default {
   styles: {
     root: {
-      background: `linear-gradient(
-        180deg,
-        rgba(72, 27, 83, 0.2) 0%,
-        rgba(252, 252, 252, 0.003125) 99.99%,
-        rgba(255, 255, 255, 1) 100%
-      ),
-      #242731`,
+      background: "linear-gradient(90deg,#0d002d 65%,#120444 100%)",
       mixBlendMode: "normal",
       fontFamily: "Montserrat, sans-serif",
     },
@@ -67,7 +61,7 @@ export default {
       },
       "&:disabled": {
         backgroundColor: "#a69de3",
-        cursor: "not-allowed"
+        cursor: "not-allowed",
       },
     },
     white: {
@@ -85,4 +79,4 @@ export default {
     heading: 1.125,
   },
   fontSizes: [12, 14, 16, 18, 20, 24, 32, 48, 64, 72],
-}
+};

@@ -1,14 +1,14 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
-import { Link } from "gatsby"
+import { jsx } from 'theme-ui';
+import { Link } from 'gatsby';
 /** SVGs */
-import ConnectionSuccessSVG from "../../assets/ConnectionSuccessSVG.svg"
-import ShieldWithCheck from "../../assets/shield-with-check.svg"
-import FaceID from "../../assets/faceID.svg"
-import Key from "../../assets/key.svg"
-import QuestionMark from "../../assets/QuestionMark.svg"
+import ConnectionSuccessSVG from '../../assets/ConnectionSuccessSVG.svg';
+import ShieldWithCheck from '../../assets/shield-with-check.svg';
+import FaceID from '../../assets/faceID.svg';
+import Key from '../../assets/key.svg';
+import QuestionMark from '../../assets/QuestionMark.svg';
 /** CSS */
-import "./ConnectionProblem.css"
+import './ConnectionProblem.css';
 
 function ConnectionProblem() {
   return (
@@ -22,9 +22,9 @@ function ConnectionProblem() {
           <div className="connectionPromblemPage__content__userInfo">
             <p
               sx={{
-                color: "accent",
+                color: 'accent',
                 fontSize: 14,
-                width: "35%",
+                width: '35%',
               }}
             >
               We’re having trouble connecting to your device. You can still
@@ -33,17 +33,17 @@ function ConnectionProblem() {
             </p>
           </div>
           <div className="connectionPromblemPage__content__form">
-            <div sx={{ variant: "forms.input" }}>
+            <div sx={{ variant: 'forms.input' }}>
               <FaceID />
             </div>
-            <div sx={{ variant: "forms.input" }}>
+            <div sx={{ variant: 'forms.input' }}>
               <Key />
             </div>
           </div>
           <Link
             to="/"
             sx={{
-              color: "accent",
+              color: 'accent',
               fontSize: 14,
             }}
           >
@@ -59,7 +59,7 @@ function ConnectionProblem() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default ConnectionProblem
+export default ConnectionProblem;

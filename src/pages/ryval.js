@@ -1,6 +1,6 @@
-import React from "react"
-import SEO from "../components/SEO/SEO"
-import Ryal from "../components/Ryal/Ryal.js"
+import React from 'react';
+import SEO from '../components/SEO/SEO';
+import Ryal from '../components/Ryal/Ryal.js';
 
 function RyalPage() {
   return (
@@ -8,7 +8,7 @@ function RyalPage() {
       <SEO title="Ryal" />
       <Ryal />
     </>
-  )
+  );
 }
 
-export default RyalPage
+export default RyalPage;

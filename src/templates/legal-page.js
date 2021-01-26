@@ -1,7 +1,7 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 
-import "./legal-page.css"
+import "./legal-page.css";
 
 const LegalPage = (prop) => {
     const rawData = useStaticQuery(graphql`
@@ -21,7 +21,7 @@ const LegalPage = (prop) => {
             }
         }
     }
-    `)
+    `);
 
     const findPage = (query) => {
         const pageData = {};
@@ -31,9 +31,9 @@ const LegalPage = (prop) => {
                 pageData["date"] = page.node.frontmatter.date;
                 pageData["body"] = page.node.html;
             }
-        })
+        });
         return pageData;
-    }
+    };
     const page = findPage(rawData);
 
     if (Object.keys(page) === 0) {
@@ -41,7 +41,7 @@ const LegalPage = (prop) => {
             <div>
                 Page Not Found, Sorry!
             </div>
-        )
+        );
     }
 
     return (
@@ -57,7 +57,7 @@ const LegalPage = (prop) => {
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
 
-export default LegalPage
+export default LegalPage;

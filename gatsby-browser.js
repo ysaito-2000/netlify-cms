@@ -1,9 +1,10 @@
-import "./src/styles/global.css"
-import CustomLayout from "./wrapPageElement"
-import "./static/styles/fonts.css"
-import "./static/styles/normalize.css"
-// import Amplify, { Auth } from "aws-amplify"
-// import awsConfig from "./src/aws-exports"
-// Amplify.configure(awsConfig)
+/**
+ * Temporary workaround for Amplify import errors in prod
+ */
+import "./src/styles/global.css";
+import "./src/styles/index.css";
+import "./static/styles/fonts.css";
+import "./static/styles/normalize.css";
+import "react-alice-carousel/lib/alice-carousel.css";
 
-export const wrapPageElement = CustomLayout
+

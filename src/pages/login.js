@@ -1,25 +1,26 @@
-import React from "react"
-import SEO from "../components/SEO/SEO"
-import LoginPage from "../components/Login/LoginPage"
-import ConnectionSuccess from "../components/ConnectionSuccess/ConnectionSuccess"
-import ConnectionProblem from "../components/ConnectionProblem/ConnectionProblem"
+import React from 'react';
+import SEO from '../components/SEO/SEO';
+import LoginPage from '../components/Login/LoginPage';
+import ConnectionSuccess from '../components/ConnectionSuccess/ConnectionSuccess';
+import ConnectionProblem from '../components/ConnectionProblem/ConnectionProblem';
 
 function Login({ location }) {
+  const { state } = location;
   return (
     <>
       <SEO title="Login" />
-      {location.state?.status === true ? (
+      {state && state.status ? (
         <ConnectionSuccess
-          name={location.state?.name}
-          uuid={location.state?.uuid}
+          name={state.name ? state.name : ''}
+          uuid={state.uuid ? state.name : ''}
         />
-      ) : location.state?.status === false ? (
+      ) : state && state.status === false ? (
         <ConnectionProblem />
       ) : (
         <LoginPage />
       )}
     </>
-  )
+  );
 }
 
-export default Login
+export default Login;

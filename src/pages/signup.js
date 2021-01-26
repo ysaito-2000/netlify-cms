@@ -1,6 +1,6 @@
-import React from "react"
-import SEO from "../components/SEO/SEO"
-import CreateAccountPage from "../components/CreateAccount/CreateAccount"
+import React from 'react';
+import SEO from '../components/SEO/SEO';
+import CreateAccountPage from '../components/CreateAccount/CreateAccount';
 
 function CreateAccount() {
   return (
@@ -8,7 +8,7 @@ function CreateAccount() {
       <SEO title="Create Account" />
       <CreateAccountPage />
     </>
-  )
+  );
 }
 
-export default CreateAccount
+export default CreateAccount;

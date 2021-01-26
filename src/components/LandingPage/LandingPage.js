@@ -1,85 +1,85 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
-import GatsbyImage from "../Image/image"
-/** SVGs */
-import MainSVG from "../../assets/MainSVG.svg"
-import ShieldWithCheck from "../../assets/shield-with-check.svg"
-import FacebookIcon from "../../assets/facebook.svg"
-import TwitterIcon from "../../assets/twitter.svg"
-import AndroidIcon from "../../assets/android.svg"
-import ButtonArrow from "../../assets/button-arrow.svg"
-import NavButton from "../UI/NavButton/NavButton"
-import Layout from "../Layout/Layout"
-/** CSS */
-import "./LandingPage.css"
-
+import { jsx } from "theme-ui";
+// eslint-disable-next-line no-unused-vars
+import React from "react";
+import NavButton from "../UI/NavButton/NavButton";
+// eslint-disable-next-line no-unused-vars
+import AnimatedBg from "../AnimatedBg";
+import LandingShowcase from "../LandingShowcase";
+import "./LandingPage.css";
+const prodTitle = "Easy one-click setup";
+const underConstruction = "Site Under Construction";
 function LandingPage() {
   return (
     <div className="home__page">
-      <div className="home__page__svg">
-        <MainSVG className="main__svg" />
-        <div className="usbnex__icon">
-          <GatsbyImage src="usbNexIcon" alt="usbnex-icon" />{" "}
-        </div>
-      </div>
-      <div className="home__page__content">
-        <div className="home__page__content__heading">
-          <h2
+      <div
+        sx={{
+          height: 0,
+          bg: "linear-gradient(180deg, #4f3a84 65%,#120444 100% )",
+        }}
+      >
+        <div className="absolute top-0 left-0 w-full h-full">
+          <div className="home__page w-full relative">
+            <div className="home__page__content ">
+              <div className="md:max-w-xs px-8 md:flex-col lg:max-w-lg">
+                <span
+                  sx={{
+                    color: "text",
+                    fontSize: 40,
+                    fontWeight: 200,
+                    lineHeight: 1.5,
+                  }}
+                >
+                  <img
+                    sx={{ objectPosition: "-4rem 4rem" }}
+                    width="500px"
+                    className="block w-200"
+                    src="https://s3-us-west-1.amazonaws.com/hakkei.cloud/ryvallogo.png"
+                    alt="Workflow"
+                  />
+                  <br />
+                  <span className="whitespace-pre">
+                    {process.env.COMING_SOON === "true"
+                      ? underConstruction
+                      : prodTitle}
+                  </span>
+                  <p className="mt-3 text-lg text-gray-300">
+                    USBNEX is loaded with free features to fully customize,
+                    update, and adjust your keyboard all within your browser on
+                    any device.
+                  </p>
+                </span>
+                {process.env.COMING_SOON === "true" ? null : (
+                  <NavButton
+                    title=" Privacy Policy"
+                    link="/signup"
+                    variant="white"
+                  />
+                )}
+              </div>
+              <div className="home__page__content"></div>
+            </div>
+            <div className="home__page__content ">
+              <figure>
+                <AnimatedBg />
+              </figure>
+              <div className="space-y-32" />
+              <div className="space-y-8" />
+              <div className="divide-y-4 divide-yellow-600 divide-dashed m-auto flex justify-start" />
+            </div>
+          </div>
+          <section
+            className="min-w-full h-auto"
             sx={{
-              color: "text",
-              fontSize: 40,
-              lineHeight: 1.4,
-              letterSpacing: 1.1,
+              background: "linear-gradient(0deg,#0d002d 65%,#120444 100% );",
             }}
           >
-            No downloads. Access your data from any device.
-            </h2>
-        </div>
-        <div className="home__page__content__tagline">
-          <ShieldWithCheck />
-          <span
-            sx={{
-              color: "accent",
-              fontSize: 14,
-            }}
-          >
-            Access your personal configurations <br />
-              from anywhere.
-            </span>
-        </div>
-        <div className="home__page__content__description">
-          <p
-            sx={{
-              color: "accent",
-              fontSize: 14,
-              marginTop: "1rem",
-            }}
-          >
-            Learn more about the Usbnex project and get
-              <br /> see the possibilities with the Hakkei Ryval.
-            </p>
-        </div>
-        <div
-          className="home__page__content__button__container"
-          sx={{ variant: "links.white" }}
-        >
-          <NavButton
-            title="Email me when it's ready"
-            link="/signup"
-            className="home__page__content__button"
-            variant="white"
-          />
-          <ButtonArrow />
-        </div>
-
-        <div className="home__page__content__social">
-          <FacebookIcon />
-          <TwitterIcon />
-          <AndroidIcon />
+            <LandingShowcase />
+          </section>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default LandingPage
+export default LandingPage;

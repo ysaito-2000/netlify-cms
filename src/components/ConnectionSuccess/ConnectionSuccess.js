@@ -1,14 +1,14 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
-import { Link } from "gatsby"
+import { jsx } from 'theme-ui';
+import { Link } from 'gatsby';
 /** SVGs */
-import ConnectionSuccessSVG from "../../assets/ConnectionSuccessSVG.svg"
-import ShieldWithCheck from "../../assets/shield-with-check.svg"
-import FaceID from "../../assets/faceID.svg"
-import Key from "../../assets/key.svg"
-import QuestionMark from "../../assets/QuestionMark.svg"
+import ConnectionSuccessSVG from '../../assets/ConnectionSuccessSVG.svg';
+import ShieldWithCheck from '../../assets/shield-with-check.svg';
+import FaceID from '../../assets/faceID.svg';
+import Key from '../../assets/key.svg';
+import QuestionMark from '../../assets/QuestionMark.svg';
 /** CSS */
-import "./ConnectionSuccess.css"
+import './ConnectionSuccess.css';
 
 function ConnectionSuccess({ name, uuid }) {
   return (
@@ -22,26 +22,30 @@ function ConnectionSuccess({ name, uuid }) {
           <div className="connectionSuccessPage__content__userInfo">
             <span
               sx={{
-                color: "accent",
+                color: 'accent',
                 fontSize: 14,
               }}
             >
-              Name: {name}
+              Name:
+              {' '}
+              {name}
             </span>
             <span
               sx={{
-                color: "accent",
+                color: 'accent',
                 fontSize: 14,
               }}
             >
-              UUDID: {uuid}
+              UUDID:
+              {' '}
+              {uuid}
             </span>
           </div>
           <div className="connectionSuccessPage__content__form">
-            <div sx={{ variant: "forms.input" }}>
+            <div sx={{ variant: 'forms.input' }}>
               <FaceID />
             </div>
-            <div sx={{ variant: "forms.input" }}>
+            <div sx={{ variant: 'forms.input' }}>
               <Key />
             </div>
           </div>
@@ -55,7 +59,7 @@ function ConnectionSuccess({ name, uuid }) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default ConnectionSuccess
+export default ConnectionSuccess;

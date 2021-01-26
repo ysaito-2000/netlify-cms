@@ -1,8 +1,9 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
-import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
-import "./footer.css"
+import { jsx } from "theme-ui";
+import { Link, useStaticQuery, graphql } from "gatsby";
+import "./footer.css";
+
+import DiscordSVG2 from "../../assets/discordWordmark.svg";
 
 const Footer = () => {
   const pageData = useStaticQuery(graphql`
@@ -19,7 +20,7 @@ const Footer = () => {
         }
       }
     }
-  `)
+  `);
 
   const cleanData = {};
   pageData.allMarkdownRemark.nodes.forEach((page) => {
@@ -29,84 +30,103 @@ const Footer = () => {
     if (category === "DUMMY_PAGE") {
       return;
     }
-    if (!cleanData.hasOwnProperty(category)) {
-      cleanData[category] = []
+    if (!Object.prototype.hasOwnProperty.call(cleanData, category)) {
+      cleanData[category] = [];
     }
 
-    cleanData[category].push({ "path": path, "title": title })
-  })
+    cleanData[category].push({ "path": path, "title": title });
+  });
 
   return (
-    <footer className="bg-white" aria-labelledby="footerHeading">
-      <h2 id="footerHeading" className="sr-only">
-        Footer
-      </h2>
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <div className={`grid grid-cols-${Object.keys(cleanData).length} gap-8 xl:col-span-1`}>
-            {Object.keys(cleanData).map((category) => {
-              return (
-                <div key={category}>
-                  <div className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                    {category}
+    <div style={{ width: "100vw" }} className="bg-black w-full">
+      <footer
+        style={{ width: "100vw", fontFamily: "Poppins" }}
+        className="z-40 h-0 bg-black text-gray-800 text-sm"
+        aria-labelledby="footerHeading"
+      >
+        <h2 id="footerHeading text-gray-800" className="sr-only">
+          Footer
+        </h2>
+        <div className="bg-black sm:px-6 lg:py-8 right-0 w-full ">
+          <div className="lg:grid xl:grid-cols-4 col-span-8 w-full">
+            <div className={`bg-black grid grid-cols-${Object.keys(cleanData).length} gap-8 xl:col-span-2`}>
+              {Object.keys(cleanData).map((category) => {
+                return (
+                  <div className="mt-12 mr-4 py-8 md:mt-0" key={category}>
+                    <h3 className="text-sm font-base text-gray-100 tracking-wider uppercase">
+                      {category}
+                    </h3>
+                    <ul className="mt-4 space-y-4 text-xs font-light text-gray-800">
+                      {cleanData[category].map((page) => {
+                        return (
+                          <div style={{ marginTop: 0 }} key={`${category + page.title}`}>
+                            <Link
+                              to={`${page.path}`}
+                              sx={{
+                                color: "#f0f0f0",
+                                fontSize: 16,
+                              }}
+                            >
+                              {page.title}
+                            </Link>
+                            <br />
+                          </div>
+                        );
+                      })}
+                    </ul>
                   </div>
-                  {cleanData[category].map((page) => {
-                    return (
-                      <div key={page.path}>
-                        <Link
-                          to={`${page.path}`}
-                          sx={{
-                            color: "accent",
-                            fontSize: 16,
-                          }}
-                        >
-                          {page.title}
-                        </Link>
-                        <hr />
-                      </div>
-                    )
-                  })}
-                </div>
-              )
-            })}
-          </div>
-          <div className="mt-8 xl:mt-0">
-            <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-              Subscribe to our newsletter
-            </h3>
-            <p className="mt-4 text-base text-gray-500">
-              The latest news, articles, and resources, sent to your inbox weekly.
-            </p>
-            <form className="mt-4 sm:flex sm:max-w-md">
-              <label htmlFor="emailAddress" className="sr-only">
-                Email address
-              </label>
-              <input
-                type="email"
-                name="emailAddress"
-                id="emailAddress"
-                autoComplete="email"
-                required
-                className="appearance-none min-w-0 w-full bg-white border border-gray-300 rounded-md shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:placeholder-gray-400"
-                placeholder="Enter your email"
-              />
-              <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-                <button
-                  type="submit"
-                  className="w-full bg-indigo-600 flex items-center justify-center border border-transparent rounded-md py-2 px-4 text-base font-medium text-white hover:bg-indigo-700 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                );
+              })}
+            </div>
+            <div className="mt-8 xl:mt-0">
+              <div className="m-auto p-8 flex justify-center">
+                <a
+                  className="block text-sm font-base text-gray-800 hover:text-indigo-700 tracking-wider"
+                  href="https://discord.gg/SfGtTh5qXZ"
                 >
-                  Subscribe
-              </button>
+                  <DiscordSVG2 className="border-radius p-2 w-64" />
+                </a>
+                <span className="inline-block m-auto">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block text-sm font-base text-gray-600 hover:text-indigo-700 tracking-wider"
+                    href="https://discord.gg/SfGtTh5qXZ"
+                  >
+                    Join the discussion on Discord{" "}
+                  </a>
+                </span>
+                <div className="block text-sm font-base text-gray-800 hover:text-indigo-700 tracking-wider"></div>
               </div>
-            </form>
+            </div>
+          </div>
+          <hr className="space-y-8 py-4" />
+          <span
+            sx={{ maxWidth: "600px" }}
+            className="mt-8 text-base text-gray-100 md:mt-0 md:order-1"
+          >
+            <p
+              sx={{ maxWidth: "600px" }}
+              className="mt-8 text-base text-gray-100 md:mt-0 md:order-1 whitespace-normal"
+            >
+              &copy;2020-2021 Hakkei Co. LLC. All rights reserved. Hakkei, Usbnex,
+              Ryval, are registered trademarks of Hakkei Co. LLC. Terms and
+              conditions, features, support, pricing, and service options subject
+              to change without notice.
+          </p>
+          </span>
+          <div className="mt-8 text-base text-gray-100 md:mt-0 md:order-1 space-y-4">
+            <br></br>
+          By accessing and using this page you agree to the{" "}
+            <Link className="text-gray-400" to="/privacy-notice">
+              Terms and Conditions.
+          </Link>
           </div>
         </div>
-        <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-          &copy; 2020-2021 Hakkei & Co LLC
-      </p>
-      </div>
-    </footer>
-  )
-}
+        <hr />
+      </footer>
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;

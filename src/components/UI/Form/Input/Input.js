@@ -1,12 +1,12 @@
 /** @jsx jsx */
-import { jsx, Input as ThemeInput } from "theme-ui"
+import { jsx, Input as ThemeInput } from 'theme-ui';
 
 function Input(props) {
-  return <ThemeInput {...props} />
+  return <ThemeInput {...props} />;
 }
 
-export default Input
+export default Input;
 
 Input.defaultProps = {
-  value: "Please Enter Value",
-}
+  value: 'Please Enter Value',
+};

@@ -1,25 +1,41 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
-import { Link } from "gatsby"
-import "./NavButton.css"
+import { jsx } from 'theme-ui';
+import { Link } from 'gatsby';
+import './NavButton.css';
 
-function Button({ title, link, className, variant }) {
+function Button({ title, link }) {
   return (
-    <Link
-      to={`${link}`}
-      className={`btn ${className}`}
-      sx={{
-        variant: `links.${variant}`,
-        fontWeight: "bold",
-        letterSpacing: 1.1,
-        "&:hover": {
-          variant: `links.${variant}`,
-        },
-      }}
-    >
-      {title}
-    </Link>
-  )
+    <div className="mt-8 lg:mt-0">
+      <form className="sm:flex py-2 gap-2">
+        <label htmlFor="emailAddress" className="sr-only">
+          Email address
+        </label>
+        <input
+          id="emailAddress"
+          name="emailAddress"
+          type="email"
+          autoComplete="email"
+          required
+          className="py-3 border px-4 border-transparent placeholder-gray-500 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white  rounded-md"
+          placeholder="Email address"
+        />
+        <button
+          type="submit"
+          className="z-50 flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500"
+        >
+          <div className="z-10 mt-3 rounded-md sm:mt-0 sm:flex-shrink-0">
+            Notify Me
+          </div>
+        </button>
+      </form>
+      <p className="mt-3 text-sm text-gray-400 ">
+        We care about the protection of your data. Read our
+        <Link className="text-indigo-500" to={`${link}`}>
+          {title}
+        </Link>
+      </p>
+    </div>
+  );
 }
 
-export default Button
+export default Button;

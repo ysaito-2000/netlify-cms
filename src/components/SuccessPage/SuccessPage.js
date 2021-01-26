@@ -1,14 +1,15 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
+import { jsx } from 'theme-ui';
 /** SVGs */
-import SuccessPageSVG from "../../../static/svgs/SuccessPageSVG.svg"
-import SuccessPageSVG_Icon from "../../../static/svgs/SuccessPageSVG_Icon.png"
-import DiscordSVG from "../../../static/svgs/DiscordSVG.svg"
-import Rocket from "../../assets/Rocket.svg"
+import SuccessPageSVG from '../../../static/svgs/SuccessPageSVG.svg';
+import SuccessPageSVG_Icon from '../../../static/svgs/SuccessPageSVG_Icon.png';
+import DiscordSVG from '../../../static/svgs/DiscordSVG.svg';
+import Rocket from '../../assets/Rocket.svg';
 /** CSS */
-import "./SuccessPage.css"
+import './SuccessPage.css';
 
 function SuccessPage({ location }) {
+  const { state } = location;
   return (
     <div className="container">
       <div className="success__page">
@@ -16,24 +17,25 @@ function SuccessPage({ location }) {
           <div className="success__page__content__heading">
             <h2
               sx={{
-                color: "text",
+                color: 'text',
                 fontSize: 40,
                 lineHeight: 1.4,
                 letterSpacing: 1.1,
               }}
             >
-              Thank you{" "}
-              <span sx={{ textTransform: "uppercase" }}>
-                {location.state?.name}
+              Thank you
+              {' '}
+              <span sx={{ textTransform: 'uppercase' }}>
+                {state && state.name}
               </span>
-              , you're all set!
+              , you&apos;re all set!
             </h2>
           </div>
           <div className="success__page__content__check__email">
             <Rocket />
             <span
               sx={{
-                color: "accent",
+                color: 'accent',
                 fontSize: 14,
               }}
             >
@@ -43,9 +45,9 @@ function SuccessPage({ location }) {
           <div className="success__page__content__description">
             <p
               sx={{
-                color: "accent",
+                color: 'accent',
                 fontSize: 14,
-                marginTop: "1rem",
+                marginTop: '1rem',
               }}
             >
               You can opt out of our email promotions at any time.
@@ -65,17 +67,19 @@ function SuccessPage({ location }) {
         <img src={DiscordSVG} alt="Follow Discord" />
         <p
           sx={{
-            color: "accent",
+            color: 'accent',
             fontSize: 14,
-            marginTop: "1rem",
+            marginTop: '1rem',
           }}
         >
           Join our official Discord server and let us know
-          <br /> how we can improve.
+          <br />
+          {' '}
+          how we can improve.
         </p>
       </div>
     </div>
-  )
+  );
 }
 
-export default SuccessPage
+export default SuccessPage;

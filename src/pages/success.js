@@ -1,6 +1,6 @@
-import React from "react"
-import SEO from "../components/SEO/SEO"
-import ConnectionSuccess from "../components/ConnectionSuccess/ConnectionSuccess"
+import React from 'react';
+import SEO from '../components/SEO/SEO';
+import ConnectionSuccess from '../components/ConnectionSuccess/ConnectionSuccess';
 
 function success() {
   return (
@@ -8,7 +8,7 @@ function success() {
       <SEO title="Success" />
       <ConnectionSuccess />
     </>
-  )
+  );
 }
 
-export default success
+export default success;
