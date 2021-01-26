@@ -450,10 +450,6 @@
 <pattern id="pattern16" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image14" transform="scale(0.00617284)"/>
 </pattern>
-
-
-
-
 <linearGradient id="paint0_linear" x1="283.514" y1="442.268" x2="363.975" y2="490.438" gradientUnits="userSpaceOnUse">
 <stop stop-color="#03C5FF"/>
 <stop offset="1" stop-color="#115AFF"/>
@@ -611,7 +607,7 @@
 <stop offset="0.53" stop-color="#00FFFF" stop-opacity="0.5"/>
 <stop offset="1" stop-color="#191F80" stop-opacity="0"/>
 </linearGradient>
-<!-- <linearGradient id="paint39_linear" x1="121655" y1="11862.5" x2="121655" y2="6774.34" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint39_linear" x1="121655" y1="11862.5" x2="121655" y2="6774.34" gradientUnits="userSpaceOnUse">
 <stop stop-color="#0F1E91"/>
 <stop offset="1" stop-color="#014AD0"/>
 </linearGradient>
@@ -926,8 +922,8 @@
 <stop stop-color="#03C5FF"/>
 <stop offset="0.49" stop-color="#0F6FFF" stop-opacity="0.26"/>
 <stop offset="1" stop-color="#115AFF" stop-opacity="0.1"/>
-</linearGradient> -->
-<!-- <linearGradient id="paint117_linear" x1="460.232" y1="190.209" x2="741.578" y2="62.0977" gradientUnits="userSpaceOnUse">
+</linearGradient>
+<linearGradient id="paint117_linear" x1="460.232" y1="190.209" x2="741.578" y2="62.0977" gradientUnits="userSpaceOnUse">
 <stop stop-color="#03C5FF"/>
 <stop offset="1" stop-color="#3E16B0"/>
 </linearGradient>
@@ -1098,12 +1094,7 @@
 <linearGradient id="paint159_linear" x1="8073.6" y1="3819.78" x2="6011.12" y2="3819.78" gradientUnits="userSpaceOnUse">
 <stop stop-color="#194AD6"/>
 <stop offset="1" stop-color="#06A1E3"/>
-</linearGradient> -->
-
-
-
-
-
+</linearGradient>
 <image id="image0" width="40" height="28" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAcCAIAAACcd2qBAAAACXBIWXMAABcRAAAXEQHKJvM/AAABUElEQVRIS72WXYqDMBCAYyRYeoR6iw05hz1FhL1PC+YU9hxujqE32GIJmn1IseLm37Tfoxn5YCYzmUxKCcwI1ommW39BNUGUmOL9yUzimQ+i6Sbea08P7AzxSXvkiUZsVy7kuEQ1idZvxf9zayfHZcEqV5SGlzhUuSai8E/xg96cubUTmvlMSrnfuuCvhzMfUlkBABPvR9oK5i4ZTGhdEE13x9eZD5YYOP/Yjvcw0vZBbyZ99vt10R4kRNtyENVhbRDBxPs7vm4KD03RyRFNt8584nbyQc15CAD4QLbXjLQFqUZmKKgmrxojSo78O8el5YeEbC9XwaoDO39Ar7nVEJ8KVr278MYNRPGmwqOaOMTAeyHxRw0yt1gx80G1wX5UH/uKFTszv36tw8SKuEm3WY9ixCCw8NrXKVKscGbesgntEitMevvSn0Cs2Dy3zm33Dxxv46qjqFT7AAAAAElFTkSuQmCC"/>
 <image id="image1" width="162" height="161" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAChCAYAAABEZmS1AAAACXBIWXMAABcRAAAXEQHKJvM/AAAElUlEQVR4Xu3a3W7bRhSF0ZHtxO37v2wTW1YvxFMejYeWUwTtBrwWMKBEMbkIPhz+5XS5XAb83x7uHQD/BSESQYhEECIRhEgEIRJBiEQQIhGESAQhEkGIRBAiEYRIBCESQYhEECIRhEgEIRJBiEQQIhGESAQhEkGIRBAiEYRIBCESQYhEECIRhEgEIRJBiEQQIhGESAQhEkGIRBAiEYRIBCESQYhEECIRhEgEIRJBiEQQIhGESAQhEkGIRBAiEYRIBCESQYhEECIRhEgEIRJBiEQQIhGESAQhEkGIRBAiEYRIBCES4eneASydDvZfDvZzhxA/5yi82XycMD9JiB+bwzr6vgrucud3GiEeO93Z9s89tDk6QX6CEN+bQztNn+d9Y+yB9e1lvA/0NMS4JMRjc3gPi3092su03qbvdYwYF4R4a55+D23bV+2rYyusiu9tWrVvDDEuCXG3irCvx209tG2fiBXceft83tZp7BGK8YAQb61OxxXg07Ye26rj+un4PMZ43dbDtu3EuCDEqz7Z+jTsAX7b1lNb/c1Uj/Bl+7Mv41a/g67vDCF2H03Db2OM721VkDUVaxpWhE9jjJ/jNrox1nfTpuIQ4soqwgrxjzHG89hjrGvFujZ8HdcAf4w9wqM76TEE+A8hvj8tH03E5239OfYYn9qfP499GtaNTL+DPm/739pvpuFGiLsKsD7XdWK/Pnwe16lYk7FfJ9Zpub7XlKxJ+TjWMTKEuLKaihVjXSNWiN/GbYiP2+eagC9jn5J1F92DL18+SiFefXR6nu+g+zXj97GHWDcu801LXUf2CPv60gEWIR7rp+lVlH2Vt/H+WeMcIQv9ORi/br6uPH2wbz6exkR8rz9a6Y9c+rvj/hqv9P2XxeIDQrxavfHoAfY3JrXqlFzbfnPyOvY75lWYTIS4W02x/vilIvsx9kua89hvUirEn9sS5C8Q4vE0nCfh07h9Y/I29rcr9f11O+av8T7G+jt7gGLcCPFWn1ZziHXnW8edx+1blP7Y5se2VjGuJuKXD1KIu0vbVoSncfsgun4/j2tkc4j9fXO9c743FRlCLP303CdiTbn+W+3rD6vrt7oefJnW0UQU5EaIt/pUrLD6b33q9YfV/fcKta95GjotT4S4VlGt9lWI8xuT+dqyr/6McRXjlyfEXZ2eeyAV42Vco5uvH2sa9hD7ZJzXfEoW40aIt45i7KFVgEev6yrEvu2fWThdLv5tFk6L7Wr1Y8a4nXRHaz6WYSIeWU3G2rcKcDYH2ffNnxlC/EjFsgqy9h85ik6AB5yaP+8ovNWpeeYf+Q4T8fN6TOL7zYT474jsN/M/tIkgRCIIkQhCJIIQiSBEIgiRCEIkghCJIEQiCJEIQiSCEIkgRCIIkQhCJIIQiSBEIgiRCEIkghCJIEQiCJEIQiSCEIkgRCIIkQhCJIIQiSBEIgiRCEIkghCJIEQiCJEIQiSCEIkgRCIIkQhCJIIQiSBEIgiRCEIkghCJIEQiCJEIQiSCEIkgRCIIkQhCJIIQiSBEIgiRCEIkghCJIEQiCJEIQiSCEIkgRCIIkQh/A5r0euu9zyswAAAAAElFTkSuQmCC"/>
 <image id="image2" width="162" height="161" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAAChCAYAAABEZmS1AAAACXBIWXMAABcRAAAXEQHKJvM/AAAEm0lEQVR4Xu3aS27bQBBF0aIk28n+NxtbH2agLvCx1E3ZhpE8gPcADUoUk0FwUfxlmuc5gP/t8OwA4F8gRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFggRFg4PTsAQ9Ng/zzYjw2E+Hmj8Kp6HGF+AiE+V8Mafe8FNz/5HQ0hbpuebPWzhlajI8gnCLGvhjaVz3VfxBKYbud4DHQKYnxAiNtqeIfOPo12LutWvucxxFgQ4qM6/Q6y1ZX78tgMK+O7lZX7IojxASGu9SLUdWzrIFudiBnctX2+tjXFEiExdhDio97pOAM8tXWUlcfp6fgaEZe2Dm2riLEgxIVONp2GGuBLWydZ+nZKIzy3P3uONb2Dzu+7R4hrW9PwJSJeZWWQORVzGmaEp4j4iHV0Ef276d1PRULs60WYIf6KiLdYYsxrxbw2vMQ9wPdYIhzdSUfsPMBEiHf1tDyaiG9t/Y4lxpP8+Wss0zBvZPQO+tr23+S33U/DCEKsMsD8nNeJen34FvepmJNRrxPztJzfc0rmpDxGP8bdI8S+3lTMGPMaMUN8iXWIx/Y5J+A5limZd9EafNp1lIS42Do91ztovWZ8jSXEvHGpNy15HakR6tptgIkQt+lpuhelrnSLx2eNNUIU+gwM31OvK6eNffV4NEzEPn20oo9c9N2xvsZLun/uLAwQ4qL3xkMD1DcmufKUnFu9ObnEcsfcCxOCENd6U0wfv2Rk77Fc1lxjuUnJED/aIshPIsS70TSsk/AU6zcmt1jeruT3SzvmTzzGmH+nBkiMQYg9Oq1qiHnnm8ddY/0WRR/bvLfVi7E3EXcdJCGuzbLNCKdYP4jO369xj6yGqO+b853zs6m4e4S40NOzTsSccvpb7tOH1flbXg+eyxpNRIIMQuzRqZhh6W869fRhtf6eoeqq05DTsiDEsYyqty9DrG9M6rWlLn3G2Itx1whxLU/PGkjGOMc9unr9mNNQQ9TJWFc9JRNjEGLPKEYNLQMcva7LEHWrn1FM88y/y8DU2faWHhOxnnSjVY/dPSbiWG8y5r5egFUNUvfVz7tHiNsyll6QuX9kFB0BdnBq/ppReL1Tc8U/9AYm4tdoTMT3gwjx+4jsB/E/tGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGGBEGHhL+1XeusyeVkDAAAAAElFTkSuQmCC"/>
