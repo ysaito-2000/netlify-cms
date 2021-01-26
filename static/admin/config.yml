@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: content/
+public_folder: static/images
+
+collections:
+  - name: "footer-pages"
+    label: "Footer Pages"
+    folder: "content/footer-pages"
+    create: true
+    path: "/{{category}}-{{title}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "date" }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
