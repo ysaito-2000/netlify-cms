@@ -33,9 +33,9 @@ const Footer = () => {
     if (!Object.prototype.hasOwnProperty.call(cleanData, category)) {
       cleanData[category] = [];
     }
-
     cleanData[category].push({ "path": path, "title": title });
   });
+  const dataKeys = Object.keys(cleanData);
 
   return (
     <div style={{ width: "100vw" }} className="bg-black w-full">
@@ -49,8 +49,8 @@ const Footer = () => {
         </h2>
         <div className="bg-black sm:px-6 lg:py-8 right-0 w-full ">
           <div className="lg:grid xl:grid-cols-4 col-span-8 w-full">
-            <div className={`bg-black grid grid-cols-${Object.keys(cleanData).length} gap-8 xl:col-span-2`}>
-              {Object.keys(cleanData).map((category) => {
+            <div className="bg-black grid grid-cols-2 gap-8 xl:col-span-2">
+              {dataKeys.map((category) => {
                 return (
                   <div className="mt-12 mr-4 py-8 md:mt-0" key={category}>
                     <h3 className="text-sm font-base text-gray-100 tracking-wider uppercase">
