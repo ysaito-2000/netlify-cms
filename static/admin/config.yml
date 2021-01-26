@@ -6,62 +6,15 @@ media_folder: content/
 public_folder: static/images
 
 collections:
-  - name: 'terms-of-use'
-    label: 'Terms of Use'
-    folder: 'content/footer-info'
+  - name: "footer-pages"
+    label: "Footer Pages"
+    folder: "content/footer-pages"
     create: true
-    path: 'terms/index'
+    path: "/{{category}}-{{title}}"
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'date' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-
-  - name: 'security'
-    label: 'Security Statement'
-    folder: 'content/footer-info'
-    create: true
-    path: 'security/index'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'date' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-
-  - name: 'privacy'
-    label: 'Privacy Statement'
-    folder: 'content/footer-info'
-    create: true
-    path: 'privacy/index'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'date' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-
-  - name: 'acceptable-use'
-    label: 'Acceptable Use'
-    folder: 'content/footer-info'
-    create: true
-    path: 'acceptable/index'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'date' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-
-  - name: 'cookies-policy'
-    label: 'Cookies Policy'
-    folder: 'content/footer-info'
-    create: true
-    path: 'cookies/index'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'date' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "date" }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

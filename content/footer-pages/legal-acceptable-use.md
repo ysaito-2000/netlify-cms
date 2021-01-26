@@ -1,6 +1,7 @@
 ---
 title: Acceptable Use
-date: 2021-01-22T05:22:32.526Z
+date: 2021-01-25T11:34:47.007Z
+category: Legal
 ---
 <!--StartFragment-->
 

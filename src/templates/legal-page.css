@@ -6,16 +6,26 @@
 }
 .legal__date {
   font-size: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .legal__info {
   width: 80%;
   text-align: left;
   margin: auto;
+  margin-bottom: 50px;
 }
 .legal__info p {
   margin-bottom: 10px;
 }
 .legal__info p a {
   color: #fe9a93;
+}
+ul > li {
+  margin-left: 20px;
+}
+li > p {
+  margin-left: 20px;
+}
+li {
+  list-style: circle;
 }

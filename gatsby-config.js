@@ -11,7 +11,6 @@ module.exports = {
     author: `Hakkei`,
     copyright: config.copyright,
   },
-  flags: { PRESERVE_WEBPACK_CACHE: true, FAST_REFRESH: true, FAST_DEV: true },
   plugins: [
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
@@ -26,7 +25,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `legal`,
-        path: `${__dirname}/content/footer-info`,
+        path: `${__dirname}/content/footer-pages`,
       },
     },
     `gatsby-transformer-sharp`,

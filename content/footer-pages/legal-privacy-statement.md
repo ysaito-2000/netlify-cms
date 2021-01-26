@@ -1,22 +1,21 @@
 ---
 title: Privacy Statement
-date: 2021-01-22T05:21:53.357Z
+date: 2021-01-25T11:33:23.646Z
+category: Legal
 ---
 <!--StartFragment-->
 
 This Application collects some Personal Data from its Users.
 
-
-
 This document can be printed for reference by using the print command in the settings of any browser.
 
-## Owner and Data Controller
+## [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#owner-and-data-controller)Owner and Data Controller
 
 Hakkei & Co LLC - 45128 Warm Springs Blvd Fremont, Unit 227, CA 94539-6149 USA
 
-**Owner contact email:** hello@hakkei.co
+**Owner contact email:** [hello@hakkei.co](mailto:hello@hakkei.co)
 
-## Types of Data collected
+## [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#types-of-data-collected)Types of Data collected
 
 Among the types of Personal Data that this Application collects, by itself or through third parties, there are: Tracker; Usage Data.
 
@@ -28,14 +27,14 @@ Any use of Cookies – or of other tracking tools – by this Application or by 
 
 Users are responsible for any third-party Personal Data obtained, published or shared through this Application and confirm that they have the third party's consent to provide the Data to the Owner.
 
-## Mode and place of processing the Data
+## [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#mode-and-place-of-processing-the-data)Mode and place of processing the Data
 
-### Methods of processing
+### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#methods-of-processing)Methods of processing
 
 The Owner takes appropriate security measures to prevent unauthorized access, disclosure, modification, or unauthorized destruction of the Data.\
 The Data processing is carried out using computers and/or IT enabled tools, following organizational procedures and modes strictly related to the purposes indicated. In addition to the Owner, in some cases, the Data may be accessible to certain types of persons in charge, involved with the operation of this Application (administration, sales, marketing, legal, system administration) or external parties (such as third-party technical service providers, mail carriers, hosting providers, IT companies, communications agencies) appointed, if necessary, as Data Processors by the Owner. The updated list of these parties may be requested from the Owner at any time.
 
-### Legal basis of processing
+### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#legal-basis-of-processing)Legal basis of processing
 
 The Owner may process Personal Data relating to Users if one of the following applies:
 
@@ -47,7 +46,7 @@ The Owner may process Personal Data relating to Users if one of the following ap
 
 In any case, the Owner will gladly help to clarify the specific legal basis that applies to the processing, and in particular whether the provision of Personal Data is a statutory or contractual requirement, or a requirement necessary to enter into a contract.
 
-### Place
+### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#place)Place
 
 The Data is processed at the Owner's operating offices and in any other places where the parties involved in the processing are located.\
 \
@@ -57,7 +56,7 @@ Users are also entitled to learn about the legal basis of Data transfers to a co
 \
 If any such transfer takes place, Users can find out more by checking the relevant sections of this document or inquire with the Owner using the information provided in the contact section.
 
-### Retention time
+### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#retention-time)Retention time
 
 Personal Data shall be processed and stored for as long as required by the purpose they have been collected for.
 
@@ -70,21 +69,21 @@ The Owner may be allowed to retain Personal Data for a longer period whenever th
 \
 Once the retention period expires, Personal Data shall be deleted. Therefore, the right to access, the right to erasure, the right to rectification and the right to data portability cannot be enforced after expiration of the retention period.
 
-## The purposes of processing
+## [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#the-purposes-of-processing)The purposes of processing
 
 The Data concerning the User is collected to allow the Owner to provide its Service, comply with its legal obligations, respond to enforcement requests, protect its rights and interests (or those of its Users or third parties), detect any malicious or fraudulent activity, as well as the following: Analytics, Hosting and backend infrastructure and Traffic optimization and distribution.
 
 For specific information about the Personal Data used for each purpose, the User may refer to the section “Detailed information on the processing of Personal Data”.
 
-## Detailed information on the processing of Personal Data
+## [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#detailed-information-on-the-processing-of-personal-data)Detailed information on the processing of Personal Data
 
 Personal Data is collected for the following purposes and using the following services:
 
-* ### Analytics
-* ### Hosting and backend infrastructure
-* ### Traffic optimization and distribution
+* ### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#analytics)Analytics
+* ### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#hosting-and-backend-infrastructure)Hosting and backend infrastructure
+* ### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#traffic-optimization-and-distribution)Traffic optimization and distribution
 
-## The rights of Users
+## [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#the-rights-of-users)The rights of Users
 
 Users may exercise certain rights regarding their Data processed by the Owner.
 
@@ -99,45 +98,45 @@ In particular, Users have the right to do the following:
 * **Receive their Data and have it transferred to another controller.** Users have the right to receive their Data in a structured, commonly used and machine readable format and, if technically feasible, to have it transmitted to another controller without any hindrance. This provision is applicable provided that the Data is processed by automated means and that the processing is based on the User's consent, on a contract which the User is part of or on pre-contractual obligations thereof.
 * **Lodge a complaint.** Users have the right to bring a claim before their competent data protection authority.
 
-### Details about the right to object to processing
+### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#details-about-the-right-to-object-to-processing)Details about the right to object to processing
 
 Where Personal Data is processed for a public interest, in the exercise of an official authority vested in the Owner or for the purposes of the legitimate interests pursued by the Owner, Users may object to such processing by providing a ground related to their particular situation to justify the objection.
 
 Users must know that, however, should their Personal Data be processed for direct marketing purposes, they can object to that processing at any time without providing any justification. To learn, whether the Owner is processing Personal Data for direct marketing purposes, Users may refer to the relevant sections of this document.
 
-### How to exercise these rights
+### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#how-to-exercise-these-rights)How to exercise these rights
 
 Any requests to exercise User rights can be directed to the Owner through the contact details provided in this document. These requests can be exercised free of charge and will be addressed by the Owner as early as possible and always within one month.
 
-## Cookie Policy
+## [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#cookie-policy)Cookie Policy
 
 This Application uses Trackers. To learn more, the User may consult the [Cookie Policy](https://www.iubenda.com/privacy-policy/gdpr/40138975/cookie-policy?ifr=true&height=800&newmarkup=no&an=no "Cookie Policy").
 
-## Additional information about Data collection and processing
+## [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#additional-information-about-data-collection-and-processing)Additional information about Data collection and processing
 
-### Legal action
+### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#legal-action)Legal action
 
 The User's Personal Data may be used for legal purposes by the Owner in Court or in the stages leading to possible legal action arising from improper use of this Application or the related Services.\
 The User declares to be aware that the Owner may be required to reveal personal data upon request of public authorities.
 
-### Additional information about User's Personal Data
+### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#additional-information-about-users-personal-data)Additional information about User's Personal Data
 
 In addition to the information contained in this privacy policy, this Application may provide the User with additional and contextual information concerning particular Services or the collection and processing of Personal Data upon request.
 
-### System logs and maintenance
+### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#system-logs-and-maintenance)System logs and maintenance
 
 For operation and maintenance purposes, this Application and any third-party services may collect files that record interaction with this Application (System logs) use other Personal Data (such as the IP Address) for this purpose.
 
-### Information not contained in this policy
+### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#information-not-contained-in-this-policy)Information not contained in this policy
 
 More details concerning the collection or processing of Personal Data may be requested from the Owner at any time. Please see the contact information at the beginning of this document.
 
-### How “Do Not Track” requests are handled
+### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#how-do-not-track-requests-are-handled)How “Do Not Track” requests are handled
 
 This Application does not support “Do Not Track” requests.\
 To determine whether any of the third-party services it uses honor the “Do Not Track” requests, please read their privacy policies.
 
-### Changes to this privacy policy
+### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/privacy/index.md#changes-to-this-privacy-policy)Changes to this privacy policy
 
 The Owner reserves the right to make changes to this privacy policy at any time by notifying its Users on this page and possibly within this Application and/or - as far as technically and legally feasible - sending a notice to Users via any contact information available to the Owner. It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom.\
 \

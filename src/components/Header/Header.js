@@ -3,17 +3,17 @@ import { useEffect, useState } from "react"
 import { jsx } from "theme-ui"
 import React from "react"
 import { Link } from "gatsby"
-import Logo from "../../assets/usbnex-logo.svg"
-import NavButton from "../UI/NavButton/NavButton"
 import NavItem from "./NavItem"
 import "./Header.css"
 import { Auth } from "aws-amplify"
 
 const Header = ({ path }) => {
   const [user, setUser] = useState(null)
-  useEffect(async () => {
-    const user = await Auth.currentAuthenticatedUser()
-    setUser(user)
+  useEffect(() => {
+    async function setAuthUser() {
+      const user = await Auth.currentAuthenticatedUser()
+      setUser(user)
+    }
   }, [])
   const logOut = async () => {
     await Auth.signOut()
@@ -54,9 +54,9 @@ const Header = ({ path }) => {
                     aria-hidden="true"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M4 6h16M4 12h16M4 18h16"
                     />
                   </svg>
@@ -99,9 +99,9 @@ const Header = ({ path }) => {
                   aria-hidden="true"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M6 18L18 6M6 6l12 12"
                   />
                 </svg>

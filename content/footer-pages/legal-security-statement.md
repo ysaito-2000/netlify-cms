@@ -1,18 +1,19 @@
 ---
 title: Security Statement
-date: 2021-01-22T05:21:00.065Z
+date: 2021-01-25T11:32:25.037Z
+category: Legal
 ---
 <!--StartFragment-->
 
 ## Liability and indemnification
 
-### EU Users
+### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/security/index.md#eu-users)EU Users
 
-#### Indemnification
+#### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/security/index.md#indemnification)Indemnification
 
 The User agrees to indemnify and hold the Owner and its subsidiaries, affiliates, officers, directors, agents, co-branders, partners and employees harmless from and against any claim or demand ⁠— including but not limited to lawyer's fees and costs ⁠— made by any third party due to or in relation with any culpable use of or connection to the Service, violation of these Terms, infringement of any third-party rights or statutory provision by the User or its affiliates, officers, directors, agents, co-branders, partners and employees to the extent allowed by applicable law.
 
-#### Limitation of liability
+#### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/security/index.md#limitation-of-liability)Limitation of liability
 
 Unless otherwise explicitly stated and without prejudice to applicable statutory product liability provisions, Users shall have no right to claim damages against the Owner (or any natural or legal person acting on its behalf).
 
@@ -20,9 +21,9 @@ This does not apply to damages to life, health or physical integrity, damages re
 
 Unless damages have been caused by way of intent or gross negligence, or they affect life, health or physical integrity, the Owner shall only be liable to the extent of typical and foreseeable damages at the moment the contract was entered into.
 
-### US Users
+### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/security/index.md#us-users)US Users
 
-#### Disclaimer of Warranties
+#### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/security/index.md#disclaimer-of-warranties)Disclaimer of Warranties
 
 This Application is provided strictly on an “as is” and “as available” basis. Use of the Service is at Users’ own risk. To the maximum extent permitted by applicable law, the Owner expressly disclaims all conditions, representations, and warranties — whether express, implied, statutory or otherwise, including, but not limited to, any implied warranty of merchantability, fitness for a particular purpose, or non-infringement of third-party rights. No advice or information, whether oral or written, obtained by user from owner or through the Service will create any warranty not expressly stated herein.
 
@@ -34,7 +35,7 @@ The Service may become inaccessible or it may not function properly with Users�
 
 Federal law, some states, and other jurisdictions, do not allow the exclusion and limitations of certain implied warranties. The above exclusions may not apply to Users. This Agreement gives Users specific legal rights, and Users may also have other rights which vary from state to state. The disclaimers and exclusions under this agreement shall not apply to the extent prohibited by applicable law.
 
-#### Limitations of liability
+#### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/security/index.md#limitations-of-liability)Limitations of liability
 
 To the maximum extent permitted by applicable law, in no event shall the Owner, and its subsidiaries, affiliates, officers, directors, agents, co-branders, partners, suppliers and employees be liable for
 
@@ -52,7 +53,7 @@ This limitation of liability section shall apply to the fullest extent permitted
 
 Some jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, therefore the above limitations or exclusions may not apply to User. The terms give User specific legal rights, and User may also have other rights which vary from jurisdiction to jurisdiction. The disclaimers, exclusions, and limitations of liability under the terms shall not apply to the extent prohibited by applicable law.
 
-#### Indemnification
+#### [](https://github.com/ysaito-2000/netlify-cms/blob/main/content/footer-info/security/index.md#indemnification-1)Indemnification
 
 The User agrees to defend, indemnify and hold the Owner and its subsidiaries, affiliates, officers, directors, agents, co-branders, partners, suppliers and employees harmless from and against any and all claims or demands, damages, obligations, losses, liabilities, costs or debt, and expenses, including, but not limited to, legal fees and expenses, arising from
 
